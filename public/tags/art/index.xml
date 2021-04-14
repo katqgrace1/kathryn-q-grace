@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>art | Allison Horst</title>
+    <link>/tags/art/</link>
+      <atom:link href="/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    <description>art</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>art</title>
+      <link>/tags/art/</link>
+    </image>
+    
+    <item>
+      <title>Birds of a feather, drawn together</title>
+      <link>/post/bof-artwork/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/post/bof-artwork/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;em&gt;By Allison Horst, Curtis Kephart, and Yanina Bellini&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cross-posted:&lt;/em&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;bof_herobanner_bluebg_final.png&#34; width=&#34;600px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+Birds of a Feather banner for RStudio::conf(2020)!
+&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;p&gt;The “&lt;a href=&#34;http://community.rstudio.com/bof&#34;&gt;Birds of a Feather&lt;/a&gt;” (BoF) sessions at the &lt;a href=&#34;https://rstudio.com/conference/&#34;&gt;2020 RStudio Conference&lt;/a&gt; were a place where R-users with similar backgrounds, interests, and aspirations could connect in a low-stress social setting. In other words - these sessions let “birds of a feather flock together.” Building on the 2019 conference swag, we rolled out a bunch of new BoF buttons for rstudio::conf 2020.&lt;/p&gt;
+&lt;p&gt;Here we’ll share the process for how some of the designs were created, including several that truly involved a flock of contributors (names for groups of birds are from &lt;a href=&#34;https://www.birdspot.co.uk/articles/collective-nouns-for-birds&#34;&gt;Bird Spot&lt;/a&gt;).&lt;/p&gt;
+&lt;div id=&#34;well-what-can-we-realistically-fit-on-a-1.5-button&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Well, what can we realistically fit on a 1.5&#34; button?&lt;/h3&gt;
+&lt;p&gt;The cool and challenging thing about designing the BoF buttons was the size restriction. In a 1.5&#34; button, we wanted to create designs that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reflect the group name and/or community&lt;/li&gt;
+&lt;li&gt;Include at least one bird&lt;/li&gt;
+&lt;li&gt;Are obviously distinguishable for each group&lt;/li&gt;
+&lt;li&gt;Add some readable text&lt;/li&gt;
+&lt;li&gt;Oh also, all while setting an approachable tone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It turns out the answer to “What can you fit on a 1.5” button?&#34; is…actually quite a lot. Here are a few of the designs:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-science-team-leaders&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Data science team leaders&lt;/h3&gt;
+&lt;p&gt;Featuring 80’s beach volleyball sandpiper coach leading a team of R users:&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;team_leaders_v1.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact:&lt;/strong&gt; a group of sandpipers can be called a &lt;em&gt;fling&lt;/em&gt; or a &lt;em&gt;bind&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;natural-language-processing&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Natural language processing&lt;/h3&gt;
+&lt;p&gt;Featuring a wordy bird - a parrot!&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;natural_language_processing_v1.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Fun facts:&lt;/strong&gt; Groups of parrots are sometimes called &lt;em&gt;companies&lt;/em&gt;, a &lt;em&gt;prattles&lt;/em&gt;, or &lt;em&gt;pandemoniums&lt;/em&gt;. Also, parrots are the only birds that can use their feet (like hands) to serve themselves food. And one more thing - the text in the background of this design is a line from Patrick Rothfuss’ &lt;em&gt;The Name of the Wind&lt;/em&gt; (one of artist &lt;span class=&#34;citation&#34;&gt;@allison_horst&lt;/span&gt;’s favorite books).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-spatially-aware-carrier-pigeon&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;The spatially aware carrier pigeon…&lt;/h3&gt;
+&lt;p&gt;…checking flight routes before setting off on their next delivery:&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;spatial_v2.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact:&lt;/strong&gt; A group of pigeons is sometimes called a &lt;em&gt;kit&lt;/em&gt; or a &lt;em&gt;loft&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;community-driven-designs&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Community-driven designs&lt;/h1&gt;
+&lt;p&gt;Several of the designs - especially R-Latin America, R-Africa, and R-Ladies - depended on recommendations, insights, and feedback from multiple members of those communities. Here, we’ll highlight elements and contributors of several community-driven designs.&lt;/p&gt;
+&lt;div id=&#34;r-latin-america&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;R-Latin America&lt;/h3&gt;
+&lt;center&gt;
+&lt;img src=&#34;r_latin_america_bof_v2.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;The R-Latin America BoF button was truly a collaborative effort, with every detail - from bird to branch - created based on ideas and input from R-Latin America community members. Massive thanks to the R-Latin America design contributors (and thank you to &lt;span class=&#34;citation&#34;&gt;@yabellini&lt;/span&gt; for providing this compiled list &amp;amp; text):&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/_lacion_&#34;&gt;Laura Ación&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/Fichulina&#34;&gt;Marcela Alfaro&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/yabellini&#34;&gt;Yanina Bellini&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/July_Benitezs&#34;&gt;Juliana Benitez&lt;/a&gt; (expert ornithologist!), &lt;a href=&#34;https://twitter.com/d_olivaw&#34;&gt;Elio Campitelli&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/PaobCorrales&#34;&gt;Paola Corrales&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/cantoflor_87&#34;&gt;Florencia D’Andrea&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/pacocuak&#34;&gt;Natalia da Silva&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/pmnatural&#34;&gt;Priscilla Minotti&lt;/a&gt;; &lt;a href=&#34;https://twitter.com/rivaquiroga&#34;&gt;Riva Quiroga&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/vilsurr&#34;&gt;Vilma Romero&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/GabySandovalM&#34;&gt;Gabriela Sandoval&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/HeathrTurnr&#34;&gt;Heather Turner&lt;/a&gt;; and the &lt;a href=&#34;https://twitter.com/LatinR_Conf&#34;&gt;LatinR Conference Community&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;These contributors are from Argentina, Chile, Costa Rica, Perú, Uruguay and the UK, and belong to R-Ladies Chapters and R User Groups in these countries. The final picture was chosen for the vote of the broader LatinR Conference Community.&lt;/p&gt;
+&lt;p&gt;Here are some insights into the final design elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The bird species is the chingolo (&lt;em&gt;Zonotrichia capensis&lt;/em&gt;) which was chosen because it seemed to be the bird that is native to many Latin American countries, and is also unique to Latin America. It was one of a number suggested by ornithologist &lt;a href=&#34;@july_benitezs&#34;&gt;Juliana Benitez&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;The chingolo is standing on a tilde (“~”) branch, used in letter eñe (ñ)&lt;/li&gt;
+&lt;li&gt;The color bands on the tilde represent colors on flags for Latin American countries&lt;/li&gt;
+&lt;li&gt;The shape of Latin America is represented on the bird’s chest&lt;/li&gt;
+&lt;li&gt;The bright green background is a nod to the astonishing biodiversity in Latin America&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;africar&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;AfricaR&lt;/h3&gt;
+&lt;center&gt;
+&lt;img src=&#34;africar.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;The AfricaR BoF button was designed with suggestions and feedback from AfricaR community leaders &lt;a href=&#34;https://twitter.com/Shel_Kariuki&#34;&gt;Shelmith Kariuki&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/Denironyx&#34;&gt;Dennis Irorere&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some design elements for the AfricaR button:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The colors (orange, purple and black) are borrowed from (and inspired by) the existing &lt;a href=&#34;https://twitter.com/AfricaRUsers&#34;&gt;Africa R Users&lt;/a&gt; hex design&lt;/li&gt;
+&lt;li&gt;The shape of the continent is in orange (and outlined by data points, with a ggplot-inspired background grid)&lt;/li&gt;
+&lt;li&gt;The ostrich was suggested by Shelmith and Dennis as a representative bird&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-ladies&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;R-Ladies&lt;/h3&gt;
+&lt;center&gt;
+&lt;img src=&#34;rladies_bof.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;The R-Ladies BoF button started with an idea from R-Ladies founder &lt;a href=&#34;https://twitter.com/gdequeiroz&#34;&gt;Gabriela de Quiroz&lt;/a&gt;, who suggested a gull as a nod to both R-Ladies’ beginnings in San Francisco, and to this year’s conference location!&lt;/p&gt;
+&lt;p&gt;With feedback from Gabriela and the R-Ladies leadership team including &lt;a href=&#34;https://twitter.com/_lacion_&#34;&gt;Laura Ación&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/ledell&#34;&gt;Erin LeDell&lt;/a&gt;, and RStudio’s &lt;a href=&#34;https://twitter.com/minebocek&#34;&gt;Mine Çetinkaya-Rundel&lt;/a&gt;, the final design features the following elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A flock (or colony) of gulls, species chosen because it’s common to San Francisco, where R-Ladies began!&lt;/li&gt;
+&lt;li&gt;The gulls are riding an updraft of air together&lt;/li&gt;
+&lt;li&gt;The purple-to-black gradient is inspired by the R-Ladies color scheme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-whole-collection&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;The whole collection&lt;/h3&gt;
+&lt;p&gt;This year, there were 24(!) different Birds of a Feather buttons. When we put them all together, here’s the flock for the 2020 conference (with more planned for next year):&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;all_bof.png&#34; width=&#34;600px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;We hope that everyone can find a bird that they relate to, and we look forward to meeting many of you at future RStudio Conference BoF sessions!&lt;/p&gt;
+&lt;p&gt;So, just one final question: &lt;strong&gt;Which bird(s) are you?&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R for Excel Users Workshop</title>
+      <link>/post/r-for-excel/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/post/r-for-excel/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;tl;dr: all workshop materials are available here: &lt;br&gt;
+GitHub: &lt;a href=&#34;https://github.com/rstudio-conf-2020/r-for-excel&#34; class=&#34;uri&#34;&gt;https://github.com/rstudio-conf-2020/r-for-excel&lt;/a&gt; &lt;br&gt;
+Book: &lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/&#34; class=&#34;uri&#34;&gt;https://rstudio-conf-2020.github.io/r-for-excel/&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://docs.google.com/presentation/d/1w9cVzEsdbyZ6vay4UnoTvTWd9t-AO_x06HoVzgAiSFE/edit?usp=sharing&#34;&gt;Slides&lt;/a&gt; &lt;br&gt;
+Cross posted: &lt;a href=&#34;https://education.rstudio.com/blog&#34; class=&#34;uri&#34;&gt;https://education.rstudio.com/blog&lt;/a&gt; and &lt;a href=&#34;https://www.openscapes.org/blog/&#34; class=&#34;uri&#34;&gt;https://www.openscapes.org/blog/&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/legalcode&#34;&gt;License: CC BY-SA 4.0&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;background&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;We were thrilled to co-teach the R for Excel Users workshop at rstudio::conf(2020)! From early on in our weekly early-morning work sessions and brainstorming hikes, we knew that our R for Excel Users workshop would not be about wholesale translating Excel operations into R. Instead, it would be a more holistic approach to reproducible analyses with R – a friendly introduction to becoming a modern R user.&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;horst-r-excel-disco.png&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+Art by Allison Horst
+&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;p&gt;Our philosophy was always about empowering our attendees to continue learning R after our workshop – and so that they would be excited about it. We wanted to teach not only the skillsets of the modern R user, but also the habits and mindsets for working in a reproducible and collaborative way. Through hands-on experience our attendees would build skills and confidence at the workshop, and through stories and packages from the #rstats community, they would build the mindset to expect what they want to do is possible and have a good start to finding it.&lt;/p&gt;
+&lt;p&gt;Thus, attendees would learn:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;coding with best practices (RStudio/tidyverse)&lt;/li&gt;
+&lt;li&gt;collaborative bookkeeping (Git/GitHub)&lt;/li&gt;
+&lt;li&gt;reporting and publishing (RMarkdown/GitHub)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And they would build the mindset:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;to expect that what they want to do is possible&lt;/li&gt;
+&lt;li&gt;to have confidence they can find it&lt;/li&gt;
+&lt;li&gt;to continue learning with supportive community&lt;/li&gt;
+&lt;li&gt;to enable others&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Focusing on #rstats communities at our workshop was especially important to us because of our audience. These folks were coming to a 2400-person conference all about R – and they did not yet know R! That seems scary! Anything we could do to not only teach them about reproducible workflows but also make the conference easier to navigate for a newcomer we felt was time well spent. Thus, we deliberately focused time on R learning communities that they would see and can get involved in at the conference and afterwards. And, we included a discussion about how Twitter is a legit tool for R, and how to get started.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;teaching-at-rstudioconf&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Teaching at RStudio::conf!&lt;/h2&gt;
+&lt;p&gt;We taught R for Excel Users at RStudio::conf(2020) with our amazing TAs (and fellow Santa Barbara R-Ladies) Jessica Couture and Jamie Montgomery! We jumped into Day 1 of the workshop with 25 optimistic participants from industry, government offices, non-profits, and even several RStudio employees.&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;r-for-excel-instructors.jpg&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+Julie, Jessica, Allison, and Jamie at RStudio::conf(2020)!
+&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;p&gt;Our workshop assumed no previous experience with R or RStudio. After setting the tone and expectations of the workshop with how R is like the Force from Star Wars, we spent the first two sessions on meeting, exploring, and setting up our tools, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/rstudio.html&#34;&gt;Meeting the RStudio IDE, Hello R Markdown!, Packages, Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/github.html&#34;&gt;Working between GitHub and R projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With Jessica and Jamie’s awesome troubleshooting, we were all off and running at the end of Session 2 with RStudio, R Markdown, and GitHub and installed, running, and somewhat familiar. Of course after getting set up with our software, we had work to do! We spent the rest of the day:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/ggplot2.html&#34;&gt;Making ggplot graphs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/pivot-tables.html&#34;&gt;pivot tables in R with group_by() %&amp;gt;% summarize()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our fearless attendees returned on Day 2, with a chorus of “Alligator mouth dash” (&lt;code&gt;&amp;lt;-&lt;/code&gt;) in response to Alison’s question “How do we assign an object in R?”. We immediately jumped into coding by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/tidying.html&#34;&gt;Reshaping, separating and uniting things with tidyr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/filter-join.html&#34;&gt;Filtering and joining data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/collaborating.html&#34;&gt;Getting help, #rstats communities, and collaborating/fixing merge conflicts in GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/synthesis.html&#34;&gt;Synthesis of the skills and tools we’d learned&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our final session was revisiting and practicing all that we had learned throughout the workshop while participants also collaborated on RMarkdown files with each other through GitHub.&lt;/p&gt;
+&lt;p&gt;The vibe throughout the workshop was fun and lighthearted, which is exactly what we were hoping for. In addition to “Alligator mouth dash”, my favorite moment in the whole workshop was an audible whisper (“very nice!”) from someone using &lt;code&gt;separate()&lt;/code&gt; for the first time. A close second was the cheers for &lt;code&gt;janitor::clean_names()&lt;/code&gt; and Allison’s responding, “Yes, this is worth cheering over!”. Our attendees were hard-working folks with a great attitude and sense of humor, who are now equipped for more exciting steps in their R journey.&lt;/p&gt;
+&lt;center&gt;
+&lt;a href = &#34;https://twitter.com/juliesquid/status/1222325096699686912&#34;&gt;
+&lt;img src=&#34;tweet-juliesquid-r-for-excel.png&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+&lt;div id=&#34;whats-next&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What’s next&lt;/h2&gt;
+&lt;p&gt;We loved developing and teaching R for Excel Users, and hope to do it again. Our course materials evolved quite a bit throughout months of development, and were hugely helped by a pilot workshop we ran at UC Santa Barbara in early December. Even so, there are little things we would like to iron out and improve upon for next time. And we will also update the Book with images from the Slides so that the Book is completely self-contained and the Slides are a bonus, rather than a necessity.&lt;/p&gt;
+&lt;p&gt;We also got feedback that we should change the name of the course because while it has some framing from Excel, it is certainly not limited to Excel Users. This seems like a good idea. When we were first talking to RStudio’s Alison Hill about the workshop, we discussed how it could be somewhat of a precursor to Jenny Bryan and Jim Hester’s What They Forgot to Teach You About R – ours being What You Should Know When You Learn R. Jenny and Jim’s have a great acronym, WTF, so I have been thinking about names. I learned from Jenny that WTF was a welcome byproduct that came after they came up with the workshop name, but I have to approach it as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Backronym&#34;&gt;backronym&lt;/a&gt;. I’ve had many terrible ideas, but! Through cocktail chats at the conference with Charlotte Wickham and Hannah Frick, we landed on TLDR being best. I love Charlotte’s suggestion of Take a Leap and Dive into R or my less-great Time to Learn Data analysis in R. This is an ongoing pursuit, and suggestions are very welcomed :).&lt;/p&gt;
+&lt;img src=&#34;r-for-excel-monsters.jpg&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+photo by Brunel Johnson with art by Allison Horst
+&lt;/figcaption&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RStudio Artist-in-Residence 2019/2020!</title>
+      <link>/post/2019-11-19-rstudio-artist-in-residence/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/post/2019-11-19-rstudio-artist-in-residence/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Since I started drawing R- and stats-related illustrations for my students in 2018, I have been overwhelmed by the reception from the #rstats community on twitter.&lt;/p&gt;
+&lt;p&gt;I am extremely excited to share that as of October 2019, I am &lt;a href=&#34;https://rstudio.com/&#34;&gt;RStudio&lt;/a&gt;’s first Artist-in-Residence!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured_horst_air.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;You can read more about my motivation and goals for the position on the &lt;a href=&#34;https://blog.rstudio.com/2019/11/18/artist-in-residence/&#34;&gt;RStudio blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I look forward to sharing a whole bunch more art with you over the next year!&lt;/p&gt;
+&lt;p&gt;Allison&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

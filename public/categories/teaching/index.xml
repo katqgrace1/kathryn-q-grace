@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teaching | Allison Horst</title>
+    <link>/categories/teaching/</link>
+      <atom:link href="/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>teaching</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>teaching</title>
+      <link>/categories/teaching/</link>
+    </image>
+    
+    <item>
+      <title>Teach R with learnr</title>
+      <link>/post/teach-r-with-learnr/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      <guid>/post/teach-r-with-learnr/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Cross-posted from the RStudio Education blog.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Check out my &lt;a href=&#34;https://education.rstudio.com/blog/2020/05/learnr-for-remote/&#34;&gt;new post&lt;/a&gt; for RStudio Ed, describing how I use the &lt;code&gt;learnr&lt;/code&gt; package to facilitate teaching and learning for remote classes with R beginners!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sharing (R lab) keys for success</title>
+      <link>/post/share-keys/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/post/share-keys/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I just finished my sixth year of teaching intro stats and data analysis in R to environmental studies grad students. For the first five, I convinced myself that I shouldn’t share my instructor code keys with students before our weekly #rstats labs.&lt;/p&gt;
+&lt;p&gt;Here are a couple of my commonly regurgitated excuses, based on absolutely nothing:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“If I share the key beforehand, no one will show up to labs!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“If I share the key beforehand, people will just run the key and not actively code along, so they won’t learn as much!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This year, a student was struggling to keep up in our computer labs and asked to get the instructor keys beforehand. Labs progress quickly, and they wanted to explore the the key to identify challenging/confusing chunks and prepare for them in advance.&lt;/p&gt;
+&lt;p&gt;First I was like “eeeehhhhh,” then I was like “pssshh fine I’ll email it to you but please don’t share it with anybody else because [see excuses above],” then eventually I was like “this is ridiculous let’s see what happens if I share the instructor keys beforehand with everyone in the class.”&lt;/p&gt;
+&lt;p&gt;Here is the nightmare that ensued:&lt;/p&gt;
+&lt;div id=&#34;everyone-just-still-came-to-labs.&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1. Everyone just still came to labs.&lt;/h2&gt;
+&lt;p&gt;Seriously, attrition rate = zero.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;everyone-was-still-coding-in-labs.&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. Everyone was still coding in labs.&lt;/h2&gt;
+&lt;p&gt;My sense was that most students didn’t even look at the key despite knowing it was posted (also fine). But in each lab, several students had printed out the key as an additional resource to help them along. In short: self-motivated students who benefitted from exploring lab keys beforehand &lt;em&gt;could&lt;/em&gt;, and the rest just continued showing up and following along without it like they always had.&lt;/p&gt;
+&lt;p&gt;This year, I actually found &lt;strong&gt;no down side&lt;/strong&gt; to posting my instructor code keys for students and TAs to see in advance. I’m sure there are anecdotal horror stories of shared keys … FINISH THIS&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;in-fact-there-are-clear-benefits.-like&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;In fact, there are clear benefits. Like:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If students want to spend &lt;strong&gt;more&lt;/strong&gt; time looking over code before labs, why in the world would I ever &lt;strong&gt;not&lt;/strong&gt; encourage their interest and effort?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When students have to miss labs (illness, personal days, conferences, etc.) they know that the materials are all available without request - which means less stress and emailing for everyone.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For anyone who &lt;em&gt;does&lt;/em&gt; find themselves falling behind, there’s always a key available for them to figure out where they got lost or went awry. Another small way to reduce student stress.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It’s actually &lt;strong&gt;less&lt;/strong&gt; work for me. I can just push all materials to GitHub (data, lab templates, keys), without feeling like I have to hide pieces in different repos or folders or whatever. One (openly shared) Rproj to rule them all.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-does-this-require&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What DOES this require?&lt;/h2&gt;
+&lt;p&gt;Believing in students.&lt;/p&gt;
+&lt;p&gt;When it comes right down to it, I wasn’t sharing instructor keys because I didn’t give my students the credit they deserved. Which was really lame of me, because like 99.9% of the time they’ve only ever been &lt;em&gt;more&lt;/em&gt; committed and motivated than I expect them to be.&lt;/p&gt;
+&lt;p&gt;Anyway, the students asking to review the lab materials beforehand are probably &lt;strong&gt;not&lt;/strong&gt; the ones trying to weasel their way out of course effort.&lt;/p&gt;
+&lt;p&gt;I’ll continue posting all #rstats lab keys (heck, you can even see them: &lt;a href=&#34;https://github.com/allisonhorst/esm-206-2018&#34;&gt;ESM 206&lt;/a&gt; / &lt;a href=&#34;https://github.com/allisonhorst/esm-244-2019&#34;&gt;ESM 244&lt;/a&gt;), with gratitude to students who’ve repeatedly proven my reservations wrong.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

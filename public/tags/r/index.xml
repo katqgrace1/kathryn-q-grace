@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R | Allison Horst</title>
+    <link>/tags/r/</link>
+      <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>R</title>
+      <link>/tags/r/</link>
+    </image>
+    
+    <item>
+      <title>Birds of a feather, drawn together</title>
+      <link>/post/bof-artwork/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/post/bof-artwork/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;em&gt;By Allison Horst, Curtis Kephart, and Yanina Bellini&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cross-posted:&lt;/em&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;bof_herobanner_bluebg_final.png&#34; width=&#34;600px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+Birds of a Feather banner for RStudio::conf(2020)!
+&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;p&gt;The “&lt;a href=&#34;http://community.rstudio.com/bof&#34;&gt;Birds of a Feather&lt;/a&gt;” (BoF) sessions at the &lt;a href=&#34;https://rstudio.com/conference/&#34;&gt;2020 RStudio Conference&lt;/a&gt; were a place where R-users with similar backgrounds, interests, and aspirations could connect in a low-stress social setting. In other words - these sessions let “birds of a feather flock together.” Building on the 2019 conference swag, we rolled out a bunch of new BoF buttons for rstudio::conf 2020.&lt;/p&gt;
+&lt;p&gt;Here we’ll share the process for how some of the designs were created, including several that truly involved a flock of contributors (names for groups of birds are from &lt;a href=&#34;https://www.birdspot.co.uk/articles/collective-nouns-for-birds&#34;&gt;Bird Spot&lt;/a&gt;).&lt;/p&gt;
+&lt;div id=&#34;well-what-can-we-realistically-fit-on-a-1.5-button&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Well, what can we realistically fit on a 1.5&#34; button?&lt;/h3&gt;
+&lt;p&gt;The cool and challenging thing about designing the BoF buttons was the size restriction. In a 1.5&#34; button, we wanted to create designs that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reflect the group name and/or community&lt;/li&gt;
+&lt;li&gt;Include at least one bird&lt;/li&gt;
+&lt;li&gt;Are obviously distinguishable for each group&lt;/li&gt;
+&lt;li&gt;Add some readable text&lt;/li&gt;
+&lt;li&gt;Oh also, all while setting an approachable tone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It turns out the answer to “What can you fit on a 1.5” button?&#34; is…actually quite a lot. Here are a few of the designs:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-science-team-leaders&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Data science team leaders&lt;/h3&gt;
+&lt;p&gt;Featuring 80’s beach volleyball sandpiper coach leading a team of R users:&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;team_leaders_v1.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact:&lt;/strong&gt; a group of sandpipers can be called a &lt;em&gt;fling&lt;/em&gt; or a &lt;em&gt;bind&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;natural-language-processing&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Natural language processing&lt;/h3&gt;
+&lt;p&gt;Featuring a wordy bird - a parrot!&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;natural_language_processing_v1.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Fun facts:&lt;/strong&gt; Groups of parrots are sometimes called &lt;em&gt;companies&lt;/em&gt;, a &lt;em&gt;prattles&lt;/em&gt;, or &lt;em&gt;pandemoniums&lt;/em&gt;. Also, parrots are the only birds that can use their feet (like hands) to serve themselves food. And one more thing - the text in the background of this design is a line from Patrick Rothfuss’ &lt;em&gt;The Name of the Wind&lt;/em&gt; (one of artist &lt;span class=&#34;citation&#34;&gt;@allison_horst&lt;/span&gt;’s favorite books).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-spatially-aware-carrier-pigeon&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;The spatially aware carrier pigeon…&lt;/h3&gt;
+&lt;p&gt;…checking flight routes before setting off on their next delivery:&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;spatial_v2.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact:&lt;/strong&gt; A group of pigeons is sometimes called a &lt;em&gt;kit&lt;/em&gt; or a &lt;em&gt;loft&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;community-driven-designs&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Community-driven designs&lt;/h1&gt;
+&lt;p&gt;Several of the designs - especially R-Latin America, R-Africa, and R-Ladies - depended on recommendations, insights, and feedback from multiple members of those communities. Here, we’ll highlight elements and contributors of several community-driven designs.&lt;/p&gt;
+&lt;div id=&#34;r-latin-america&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;R-Latin America&lt;/h3&gt;
+&lt;center&gt;
+&lt;img src=&#34;r_latin_america_bof_v2.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;The R-Latin America BoF button was truly a collaborative effort, with every detail - from bird to branch - created based on ideas and input from R-Latin America community members. Massive thanks to the R-Latin America design contributors (and thank you to &lt;span class=&#34;citation&#34;&gt;@yabellini&lt;/span&gt; for providing this compiled list &amp;amp; text):&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/_lacion_&#34;&gt;Laura Ación&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/Fichulina&#34;&gt;Marcela Alfaro&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/yabellini&#34;&gt;Yanina Bellini&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/July_Benitezs&#34;&gt;Juliana Benitez&lt;/a&gt; (expert ornithologist!), &lt;a href=&#34;https://twitter.com/d_olivaw&#34;&gt;Elio Campitelli&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/PaobCorrales&#34;&gt;Paola Corrales&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/cantoflor_87&#34;&gt;Florencia D’Andrea&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/pacocuak&#34;&gt;Natalia da Silva&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/pmnatural&#34;&gt;Priscilla Minotti&lt;/a&gt;; &lt;a href=&#34;https://twitter.com/rivaquiroga&#34;&gt;Riva Quiroga&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/vilsurr&#34;&gt;Vilma Romero&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/GabySandovalM&#34;&gt;Gabriela Sandoval&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/HeathrTurnr&#34;&gt;Heather Turner&lt;/a&gt;; and the &lt;a href=&#34;https://twitter.com/LatinR_Conf&#34;&gt;LatinR Conference Community&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;These contributors are from Argentina, Chile, Costa Rica, Perú, Uruguay and the UK, and belong to R-Ladies Chapters and R User Groups in these countries. The final picture was chosen for the vote of the broader LatinR Conference Community.&lt;/p&gt;
+&lt;p&gt;Here are some insights into the final design elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The bird species is the chingolo (&lt;em&gt;Zonotrichia capensis&lt;/em&gt;) which was chosen because it seemed to be the bird that is native to many Latin American countries, and is also unique to Latin America. It was one of a number suggested by ornithologist &lt;a href=&#34;@july_benitezs&#34;&gt;Juliana Benitez&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;The chingolo is standing on a tilde (“~”) branch, used in letter eñe (ñ)&lt;/li&gt;
+&lt;li&gt;The color bands on the tilde represent colors on flags for Latin American countries&lt;/li&gt;
+&lt;li&gt;The shape of Latin America is represented on the bird’s chest&lt;/li&gt;
+&lt;li&gt;The bright green background is a nod to the astonishing biodiversity in Latin America&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;africar&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;AfricaR&lt;/h3&gt;
+&lt;center&gt;
+&lt;img src=&#34;africar.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;The AfricaR BoF button was designed with suggestions and feedback from AfricaR community leaders &lt;a href=&#34;https://twitter.com/Shel_Kariuki&#34;&gt;Shelmith Kariuki&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/Denironyx&#34;&gt;Dennis Irorere&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some design elements for the AfricaR button:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The colors (orange, purple and black) are borrowed from (and inspired by) the existing &lt;a href=&#34;https://twitter.com/AfricaRUsers&#34;&gt;Africa R Users&lt;/a&gt; hex design&lt;/li&gt;
+&lt;li&gt;The shape of the continent is in orange (and outlined by data points, with a ggplot-inspired background grid)&lt;/li&gt;
+&lt;li&gt;The ostrich was suggested by Shelmith and Dennis as a representative bird&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-ladies&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;R-Ladies&lt;/h3&gt;
+&lt;center&gt;
+&lt;img src=&#34;rladies_bof.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;The R-Ladies BoF button started with an idea from R-Ladies founder &lt;a href=&#34;https://twitter.com/gdequeiroz&#34;&gt;Gabriela de Quiroz&lt;/a&gt;, who suggested a gull as a nod to both R-Ladies’ beginnings in San Francisco, and to this year’s conference location!&lt;/p&gt;
+&lt;p&gt;With feedback from Gabriela and the R-Ladies leadership team including &lt;a href=&#34;https://twitter.com/_lacion_&#34;&gt;Laura Ación&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/ledell&#34;&gt;Erin LeDell&lt;/a&gt;, and RStudio’s &lt;a href=&#34;https://twitter.com/minebocek&#34;&gt;Mine Çetinkaya-Rundel&lt;/a&gt;, the final design features the following elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A flock (or colony) of gulls, species chosen because it’s common to San Francisco, where R-Ladies began!&lt;/li&gt;
+&lt;li&gt;The gulls are riding an updraft of air together&lt;/li&gt;
+&lt;li&gt;The purple-to-black gradient is inspired by the R-Ladies color scheme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-whole-collection&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;The whole collection&lt;/h3&gt;
+&lt;p&gt;This year, there were 24(!) different Birds of a Feather buttons. When we put them all together, here’s the flock for the 2020 conference (with more planned for next year):&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;all_bof.png&#34; width=&#34;600px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;We hope that everyone can find a bird that they relate to, and we look forward to meeting many of you at future RStudio Conference BoF sessions!&lt;/p&gt;
+&lt;p&gt;So, just one final question: &lt;strong&gt;Which bird(s) are you?&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RStudio Artist-in-Residence 2019/2020!</title>
+      <link>/post/2019-11-19-rstudio-artist-in-residence/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/post/2019-11-19-rstudio-artist-in-residence/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Since I started drawing R- and stats-related illustrations for my students in 2018, I have been overwhelmed by the reception from the #rstats community on twitter.&lt;/p&gt;
+&lt;p&gt;I am extremely excited to share that as of October 2019, I am &lt;a href=&#34;https://rstudio.com/&#34;&gt;RStudio&lt;/a&gt;’s first Artist-in-Residence!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured_horst_air.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;You can read more about my motivation and goals for the position on the &lt;a href=&#34;https://blog.rstudio.com/2019/11/18/artist-in-residence/&#34;&gt;RStudio blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I look forward to sharing a whole bunch more art with you over the next year!&lt;/p&gt;
+&lt;p&gt;Allison&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sharing (R lab) keys for success</title>
+      <link>/post/share-keys/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/post/share-keys/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I just finished my sixth year of teaching intro stats and data analysis in R to environmental studies grad students. For the first five, I convinced myself that I shouldn’t share my instructor code keys with students before our weekly #rstats labs.&lt;/p&gt;
+&lt;p&gt;Here are a couple of my commonly regurgitated excuses, based on absolutely nothing:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“If I share the key beforehand, no one will show up to labs!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“If I share the key beforehand, people will just run the key and not actively code along, so they won’t learn as much!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This year, a student was struggling to keep up in our computer labs and asked to get the instructor keys beforehand. Labs progress quickly, and they wanted to explore the the key to identify challenging/confusing chunks and prepare for them in advance.&lt;/p&gt;
+&lt;p&gt;First I was like “eeeehhhhh,” then I was like “pssshh fine I’ll email it to you but please don’t share it with anybody else because [see excuses above],” then eventually I was like “this is ridiculous let’s see what happens if I share the instructor keys beforehand with everyone in the class.”&lt;/p&gt;
+&lt;p&gt;Here is the nightmare that ensued:&lt;/p&gt;
+&lt;div id=&#34;everyone-just-still-came-to-labs.&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1. Everyone just still came to labs.&lt;/h2&gt;
+&lt;p&gt;Seriously, attrition rate = zero.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;everyone-was-still-coding-in-labs.&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. Everyone was still coding in labs.&lt;/h2&gt;
+&lt;p&gt;My sense was that most students didn’t even look at the key despite knowing it was posted (also fine). But in each lab, several students had printed out the key as an additional resource to help them along. In short: self-motivated students who benefitted from exploring lab keys beforehand &lt;em&gt;could&lt;/em&gt;, and the rest just continued showing up and following along without it like they always had.&lt;/p&gt;
+&lt;p&gt;This year, I actually found &lt;strong&gt;no down side&lt;/strong&gt; to posting my instructor code keys for students and TAs to see in advance. I’m sure there are anecdotal horror stories of shared keys … FINISH THIS&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;in-fact-there-are-clear-benefits.-like&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;In fact, there are clear benefits. Like:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If students want to spend &lt;strong&gt;more&lt;/strong&gt; time looking over code before labs, why in the world would I ever &lt;strong&gt;not&lt;/strong&gt; encourage their interest and effort?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When students have to miss labs (illness, personal days, conferences, etc.) they know that the materials are all available without request - which means less stress and emailing for everyone.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For anyone who &lt;em&gt;does&lt;/em&gt; find themselves falling behind, there’s always a key available for them to figure out where they got lost or went awry. Another small way to reduce student stress.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It’s actually &lt;strong&gt;less&lt;/strong&gt; work for me. I can just push all materials to GitHub (data, lab templates, keys), without feeling like I have to hide pieces in different repos or folders or whatever. One (openly shared) Rproj to rule them all.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-does-this-require&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What DOES this require?&lt;/h2&gt;
+&lt;p&gt;Believing in students.&lt;/p&gt;
+&lt;p&gt;When it comes right down to it, I wasn’t sharing instructor keys because I didn’t give my students the credit they deserved. Which was really lame of me, because like 99.9% of the time they’ve only ever been &lt;em&gt;more&lt;/em&gt; committed and motivated than I expect them to be.&lt;/p&gt;
+&lt;p&gt;Anyway, the students asking to review the lab materials beforehand are probably &lt;strong&gt;not&lt;/strong&gt; the ones trying to weasel their way out of course effort.&lt;/p&gt;
+&lt;p&gt;I’ll continue posting all #rstats lab keys (heck, you can even see them: &lt;a href=&#34;https://github.com/allisonhorst/esm-206-2018&#34;&gt;ESM 206&lt;/a&gt; / &lt;a href=&#34;https://github.com/allisonhorst/esm-244-2019&#34;&gt;ESM 244&lt;/a&gt;), with gratitude to students who’ve repeatedly proven my reservations wrong.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>There&#39;s value in trying your [dataviz] worst</title>
+      <link>/post/do-your-worst/</link>
+      <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/post/do-your-worst/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In the past I’ve always asked students to create their &lt;em&gt;best possible graphs&lt;/em&gt; in &lt;code&gt;ggplot2&lt;/code&gt; to practice creating clear, engaging data visualizations. Recently, I’ve realized value in adding a few early exercises that encourage students to make their &lt;strong&gt;worst&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why is it good to make ggplot2 graphs so (intentionally) bad?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here are four ways that creating a purposefully disgusting graph promotes learning and exploration in &lt;code&gt;ggplot2&lt;/code&gt;:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Making &lt;strong&gt;the worst&lt;/strong&gt; graph encourages creativity while eliminating the stress of producing a perfect final visualization (unless, of course, it’s perfectly hideous)&lt;/li&gt;
+&lt;li&gt;Making &lt;strong&gt;the worst&lt;/strong&gt; graph requires extensive customization and code&lt;/li&gt;
+&lt;li&gt;Making &lt;strong&gt;the worst&lt;/strong&gt; graph means critically thinking about and identifying contributors to “bad” graphs&lt;/li&gt;
+&lt;li&gt;Making &lt;strong&gt;the worst&lt;/strong&gt; graph is surprisingly fun&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I was recently inspired to try my absolute dataviz worst by a &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday&#34;&gt;#tidytuesday&lt;/a&gt; prompt using data from &lt;a href=&#34;https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368&#34;&gt;Sarah Leo’s efforts to improve imperfect graphs in The Economist&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Instead of trying to recreate or further improve on their graphs, I decided to use my powers and energy for a much different purpose. A darker and more anarchistic purpose…&lt;/p&gt;
+&lt;p&gt;Behold, my worst!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured_cowplot_test.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The undiscerning eye might think “these graphs are abominations and there was clearly no effort put into them.”&lt;/p&gt;
+&lt;p&gt;Wrong.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It’s a long dive from ggplot2 defaults into the depths of truly terrible DataViz, and it takes creativity and effort to keep sinking&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are just a few things I learned or re-learned during my nosedive:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arrange multiple graphs with &lt;a href=&#34;https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html&#34;&gt;&lt;strong&gt;cow&lt;/strong&gt;plot&lt;/a&gt; by &lt;a href=&#34;https://github.com/clauswilke&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;laus &lt;strong&gt;O&lt;/strong&gt;. &lt;strong&gt;W&lt;/strong&gt;ilke&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add figure labels and subtext&lt;/li&gt;
+&lt;li&gt;Expand figure margins to let axis labels breathe&lt;/li&gt;
+&lt;li&gt;Update fonts and colors in all graph components&lt;/li&gt;
+&lt;li&gt;Convert to polar coordinates&lt;/li&gt;
+&lt;li&gt;Customizing date formatting on axes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/allisonhorst/allison-tidy-tuesdays/tree/master/2019-%2004-16&#34;&gt;(&lt;em&gt;click here for my complete worst dataviz code&lt;/em&gt;)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Through the process of trying my worst I learned some new customization skills, created useful reference code for future ggplot2 efforts, and had fun – it felt oddly liberating to be deliberately and creatively awful.&lt;/p&gt;
+&lt;p&gt;From now on, I’ll be adding a few early &lt;code&gt;ggplot2&lt;/code&gt; activities requiring students to do their absolute dataviz worst. There’s plenty of room at the bottom, and we can learn a lot &lt;em&gt;and&lt;/em&gt; have fun on our way down.&lt;/p&gt;
+&lt;div id=&#34;data-visualization-resources-in-the-other-direction&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Data visualization resources (in the other direction):&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://serialmentor.com/dataviz/&#34;&gt;Fundamentals of Data Visualization&lt;/a&gt; by Claus Wilke&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://kieranhealy.org/publications/dataviz/&#34;&gt;Data Visualization: a Practical Introduction&lt;/a&gt; by Kieran Healy&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

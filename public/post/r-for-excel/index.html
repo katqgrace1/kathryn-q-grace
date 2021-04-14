@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Allison Horst">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="tl;dr: all workshop materials are available here: GitHub: https://github.com/rstudio-conf-2020/r-for-excel Book: https://rstudio-conf-2020.github.io/r-for-excel/ Slides Cross posted: https://education.rstudio.com/blog and https://www.openscapes.org/blog/ License: CC BY-SA 4.0
+ Background We were thrilled to co-teach the R for Excel Users workshop at rstudio::conf(2020)! From early on in our weekly early-morning work sessions and brainstorming hikes, we knew that our R for Excel Users workshop would not be about wholesale translating Excel operations into R. Instead, it would be a more holistic approach to reproducible analyses with R – a friendly introduction to becoming a modern R user.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/r-for-excel/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#34282C">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,700%7CRoboto:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/r-for-excel/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@allison_horst">
+  <meta property="twitter:creator" content="@allison_horst">
+  
+  <meta property="og:site_name" content="Allison Horst">
+  <meta property="og:url" content="/post/r-for-excel/">
+  <meta property="og:title" content="R for Excel Users Workshop | Allison Horst">
+  <meta property="og:description" content="tl;dr: all workshop materials are available here: GitHub: https://github.com/rstudio-conf-2020/r-for-excel Book: https://rstudio-conf-2020.github.io/r-for-excel/ Slides Cross posted: https://education.rstudio.com/blog and https://www.openscapes.org/blog/ License: CC BY-SA 4.0
+ Background We were thrilled to co-teach the R for Excel Users workshop at rstudio::conf(2020)! From early on in our weekly early-morning work sessions and brainstorming hikes, we knew that our R for Excel Users workshop would not be about wholesale translating Excel operations into R. Instead, it would be a more holistic approach to reproducible analyses with R – a friendly introduction to becoming a modern R user."><meta property="og:image" content="/post/r-for-excel/featured_r_excel.png">
+  <meta property="twitter:image" content="/post/r-for-excel/featured_r_excel.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-02-18T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-02-18T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/r-for-excel/"
+  },
+  "headline": "R for Excel Users Workshop",
+  
+  "image": [
+    "/post/r-for-excel/featured_r_excel.png"
+  ],
+  
+  "datePublished": "2020-02-18T00:00:00Z",
+  "dateModified": "2020-02-18T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Allison Horst"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Allison Horst",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "tl;dr: all workshop materials are available here: GitHub: https://github.com/rstudio-conf-2020/r-for-excel Book: https://rstudio-conf-2020.github.io/r-for-excel/ Slides Cross posted: https://education.rstudio.com/blog and https://www.openscapes.org/blog/ License: CC BY-SA 4.0\n Background We were thrilled to co-teach the R for Excel Users workshop at rstudio::conf(2020)! From early on in our weekly early-morning work sessions and brainstorming hikes, we knew that our R for Excel Users workshop would not be about wholesale translating Excel operations into R. Instead, it would be a more holistic approach to reproducible analyses with R – a friendly introduction to becoming a modern R user."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>R for Excel Users Workshop | Allison Horst</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Allison Horst</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Allison Horst</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/talk/"><span>Talks and Workshops</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>R for Excel Users Workshop</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 18, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/community/">community</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 503px;">
+  <div style="position: relative">
+    <img src="/post/r-for-excel/featured_r_excel_hu89a4e161961dd09e761103cb7c002b8d_693830_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<blockquote>
+<p>tl;dr: all workshop materials are available here: <br>
+GitHub: <a href="https://github.com/rstudio-conf-2020/r-for-excel" class="uri">https://github.com/rstudio-conf-2020/r-for-excel</a> <br>
+Book: <a href="https://rstudio-conf-2020.github.io/r-for-excel/" class="uri">https://rstudio-conf-2020.github.io/r-for-excel/</a> <br>
+<a href="https://docs.google.com/presentation/d/1w9cVzEsdbyZ6vay4UnoTvTWd9t-AO_x06HoVzgAiSFE/edit?usp=sharing">Slides</a> <br>
+Cross posted: <a href="https://education.rstudio.com/blog" class="uri">https://education.rstudio.com/blog</a> and <a href="https://www.openscapes.org/blog/" class="uri">https://www.openscapes.org/blog/</a> <br>
+<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">License: CC BY-SA 4.0</a></p>
+</blockquote>
+<div id="background" class="section level2">
+<h2>Background</h2>
+<p>We were thrilled to co-teach the R for Excel Users workshop at rstudio::conf(2020)! From early on in our weekly early-morning work sessions and brainstorming hikes, we knew that our R for Excel Users workshop would not be about wholesale translating Excel operations into R. Instead, it would be a more holistic approach to reproducible analyses with R – a friendly introduction to becoming a modern R user.</p>
+<center>
+<img src="horst-r-excel-disco.png" width="500px"></a>
+<figcaption>
+Art by Allison Horst
+</figcaption>
+</center>
+<p>Our philosophy was always about empowering our attendees to continue learning R after our workshop – and so that they would be excited about it. We wanted to teach not only the skillsets of the modern R user, but also the habits and mindsets for working in a reproducible and collaborative way. Through hands-on experience our attendees would build skills and confidence at the workshop, and through stories and packages from the #rstats community, they would build the mindset to expect what they want to do is possible and have a good start to finding it.</p>
+<p>Thus, attendees would learn:</p>
+<ol style="list-style-type: decimal">
+<li>coding with best practices (RStudio/tidyverse)</li>
+<li>collaborative bookkeeping (Git/GitHub)</li>
+<li>reporting and publishing (RMarkdown/GitHub)</li>
+</ol>
+<p>And they would build the mindset:</p>
+<ol style="list-style-type: decimal">
+<li>to expect that what they want to do is possible</li>
+<li>to have confidence they can find it</li>
+<li>to continue learning with supportive community</li>
+<li>to enable others</li>
+</ol>
+<p>Focusing on #rstats communities at our workshop was especially important to us because of our audience. These folks were coming to a 2400-person conference all about R – and they did not yet know R! That seems scary! Anything we could do to not only teach them about reproducible workflows but also make the conference easier to navigate for a newcomer we felt was time well spent. Thus, we deliberately focused time on R learning communities that they would see and can get involved in at the conference and afterwards. And, we included a discussion about how Twitter is a legit tool for R, and how to get started.</p>
+</div>
+<div id="teaching-at-rstudioconf" class="section level2">
+<h2>Teaching at RStudio::conf!</h2>
+<p>We taught R for Excel Users at RStudio::conf(2020) with our amazing TAs (and fellow Santa Barbara R-Ladies) Jessica Couture and Jamie Montgomery! We jumped into Day 1 of the workshop with 25 optimistic participants from industry, government offices, non-profits, and even several RStudio employees.</p>
+<center>
+<img src="r-for-excel-instructors.jpg" width="500px"></a>
+<figcaption>
+Julie, Jessica, Allison, and Jamie at RStudio::conf(2020)!
+</figcaption>
+</center>
+<p>Our workshop assumed no previous experience with R or RStudio. After setting the tone and expectations of the workshop with how R is like the Force from Star Wars, we spent the first two sessions on meeting, exploring, and setting up our tools, including:</p>
+<ul>
+<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/rstudio.html">Meeting the RStudio IDE, Hello R Markdown!, Packages, Functions</a></li>
+<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/github.html">Working between GitHub and R projects</a></li>
+</ul>
+<p>With Jessica and Jamie’s awesome troubleshooting, we were all off and running at the end of Session 2 with RStudio, R Markdown, and GitHub and installed, running, and somewhat familiar. Of course after getting set up with our software, we had work to do! We spent the rest of the day:</p>
+<ul>
+<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/ggplot2.html">Making ggplot graphs</a></li>
+<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/pivot-tables.html">pivot tables in R with group_by() %&gt;% summarize()</a></li>
+</ul>
+<p>Our fearless attendees returned on Day 2, with a chorus of “Alligator mouth dash” (<code>&lt;-</code>) in response to Alison’s question “How do we assign an object in R?”. We immediately jumped into coding by:</p>
+<ul>
+<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/tidying.html">Reshaping, separating and uniting things with tidyr</a></li>
+<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/filter-join.html">Filtering and joining data</a></li>
+<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/collaborating.html">Getting help, #rstats communities, and collaborating/fixing merge conflicts in GitHub</a></li>
+<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/synthesis.html">Synthesis of the skills and tools we’d learned</a></li>
+</ul>
+<p>Our final session was revisiting and practicing all that we had learned throughout the workshop while participants also collaborated on RMarkdown files with each other through GitHub.</p>
+<p>The vibe throughout the workshop was fun and lighthearted, which is exactly what we were hoping for. In addition to “Alligator mouth dash”, my favorite moment in the whole workshop was an audible whisper (“very nice!”) from someone using <code>separate()</code> for the first time. A close second was the cheers for <code>janitor::clean_names()</code> and Allison’s responding, “Yes, this is worth cheering over!”. Our attendees were hard-working folks with a great attitude and sense of humor, who are now equipped for more exciting steps in their R journey.</p>
+<center>
+<a href = "https://twitter.com/juliesquid/status/1222325096699686912">
+<img src="tweet-juliesquid-r-for-excel.png" width="500px"></a>
+</center>
+</div>
+<div id="whats-next" class="section level2">
+<h2>What’s next</h2>
+<p>We loved developing and teaching R for Excel Users, and hope to do it again. Our course materials evolved quite a bit throughout months of development, and were hugely helped by a pilot workshop we ran at UC Santa Barbara in early December. Even so, there are little things we would like to iron out and improve upon for next time. And we will also update the Book with images from the Slides so that the Book is completely self-contained and the Slides are a bonus, rather than a necessity.</p>
+<p>We also got feedback that we should change the name of the course because while it has some framing from Excel, it is certainly not limited to Excel Users. This seems like a good idea. When we were first talking to RStudio’s Alison Hill about the workshop, we discussed how it could be somewhat of a precursor to Jenny Bryan and Jim Hester’s What They Forgot to Teach You About R – ours being What You Should Know When You Learn R. Jenny and Jim’s have a great acronym, WTF, so I have been thinking about names. I learned from Jenny that WTF was a welcome byproduct that came after they came up with the workshop name, but I have to approach it as a <a href="https://en.wikipedia.org/wiki/Backronym">backronym</a>. I’ve had many terrible ideas, but! Through cocktail chats at the conference with Charlotte Wickham and Hannah Frick, we landed on TLDR being best. I love Charlotte’s suggestion of Take a Leap and Dive into R or my less-great Time to Learn Data analysis in R. This is an ongoing pursuit, and suggestions are very welcomed :).</p>
+<img src="r-for-excel-monsters.jpg" width="500px"></a>
+<figcaption>
+photo by Brunel Johnson with art by Allison Horst
+</figcaption>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/art/">art</a>
+  
+  <a class="badge badge-light" href="/tags/coding/">coding</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu680a44734fed51c651661c3a53f20d4a_2472632_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">Allison Horst</a></h5>
+      <h6 class="card-subtitle">Assistant Teaching Professor</h6>
+      <p class="card-text">My teaching interests are data science, statistics, and science communication.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/allison_horst" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/allisonhorst" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/2019-11-19-rstudio-artist-in-residence/">RStudio Artist-in-Residence 2019/2020!</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a8d7005002cb4a052fd6d721e83df9ba.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

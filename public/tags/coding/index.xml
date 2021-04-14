@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding | Allison Horst</title>
+    <link>/tags/coding/</link>
+      <atom:link href="/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <description>coding</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>coding</title>
+      <link>/tags/coding/</link>
+    </image>
+    
+    <item>
+      <title>R for Excel Users Workshop</title>
+      <link>/post/r-for-excel/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/post/r-for-excel/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;tl;dr: all workshop materials are available here: &lt;br&gt;
+GitHub: &lt;a href=&#34;https://github.com/rstudio-conf-2020/r-for-excel&#34; class=&#34;uri&#34;&gt;https://github.com/rstudio-conf-2020/r-for-excel&lt;/a&gt; &lt;br&gt;
+Book: &lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/&#34; class=&#34;uri&#34;&gt;https://rstudio-conf-2020.github.io/r-for-excel/&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://docs.google.com/presentation/d/1w9cVzEsdbyZ6vay4UnoTvTWd9t-AO_x06HoVzgAiSFE/edit?usp=sharing&#34;&gt;Slides&lt;/a&gt; &lt;br&gt;
+Cross posted: &lt;a href=&#34;https://education.rstudio.com/blog&#34; class=&#34;uri&#34;&gt;https://education.rstudio.com/blog&lt;/a&gt; and &lt;a href=&#34;https://www.openscapes.org/blog/&#34; class=&#34;uri&#34;&gt;https://www.openscapes.org/blog/&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/legalcode&#34;&gt;License: CC BY-SA 4.0&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;background&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;We were thrilled to co-teach the R for Excel Users workshop at rstudio::conf(2020)! From early on in our weekly early-morning work sessions and brainstorming hikes, we knew that our R for Excel Users workshop would not be about wholesale translating Excel operations into R. Instead, it would be a more holistic approach to reproducible analyses with R – a friendly introduction to becoming a modern R user.&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;horst-r-excel-disco.png&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+Art by Allison Horst
+&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;p&gt;Our philosophy was always about empowering our attendees to continue learning R after our workshop – and so that they would be excited about it. We wanted to teach not only the skillsets of the modern R user, but also the habits and mindsets for working in a reproducible and collaborative way. Through hands-on experience our attendees would build skills and confidence at the workshop, and through stories and packages from the #rstats community, they would build the mindset to expect what they want to do is possible and have a good start to finding it.&lt;/p&gt;
+&lt;p&gt;Thus, attendees would learn:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;coding with best practices (RStudio/tidyverse)&lt;/li&gt;
+&lt;li&gt;collaborative bookkeeping (Git/GitHub)&lt;/li&gt;
+&lt;li&gt;reporting and publishing (RMarkdown/GitHub)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And they would build the mindset:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;to expect that what they want to do is possible&lt;/li&gt;
+&lt;li&gt;to have confidence they can find it&lt;/li&gt;
+&lt;li&gt;to continue learning with supportive community&lt;/li&gt;
+&lt;li&gt;to enable others&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Focusing on #rstats communities at our workshop was especially important to us because of our audience. These folks were coming to a 2400-person conference all about R – and they did not yet know R! That seems scary! Anything we could do to not only teach them about reproducible workflows but also make the conference easier to navigate for a newcomer we felt was time well spent. Thus, we deliberately focused time on R learning communities that they would see and can get involved in at the conference and afterwards. And, we included a discussion about how Twitter is a legit tool for R, and how to get started.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;teaching-at-rstudioconf&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Teaching at RStudio::conf!&lt;/h2&gt;
+&lt;p&gt;We taught R for Excel Users at RStudio::conf(2020) with our amazing TAs (and fellow Santa Barbara R-Ladies) Jessica Couture and Jamie Montgomery! We jumped into Day 1 of the workshop with 25 optimistic participants from industry, government offices, non-profits, and even several RStudio employees.&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;r-for-excel-instructors.jpg&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+Julie, Jessica, Allison, and Jamie at RStudio::conf(2020)!
+&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;p&gt;Our workshop assumed no previous experience with R or RStudio. After setting the tone and expectations of the workshop with how R is like the Force from Star Wars, we spent the first two sessions on meeting, exploring, and setting up our tools, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/rstudio.html&#34;&gt;Meeting the RStudio IDE, Hello R Markdown!, Packages, Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/github.html&#34;&gt;Working between GitHub and R projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With Jessica and Jamie’s awesome troubleshooting, we were all off and running at the end of Session 2 with RStudio, R Markdown, and GitHub and installed, running, and somewhat familiar. Of course after getting set up with our software, we had work to do! We spent the rest of the day:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/ggplot2.html&#34;&gt;Making ggplot graphs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/pivot-tables.html&#34;&gt;pivot tables in R with group_by() %&amp;gt;% summarize()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our fearless attendees returned on Day 2, with a chorus of “Alligator mouth dash” (&lt;code&gt;&amp;lt;-&lt;/code&gt;) in response to Alison’s question “How do we assign an object in R?”. We immediately jumped into coding by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/tidying.html&#34;&gt;Reshaping, separating and uniting things with tidyr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/filter-join.html&#34;&gt;Filtering and joining data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/collaborating.html&#34;&gt;Getting help, #rstats communities, and collaborating/fixing merge conflicts in GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/synthesis.html&#34;&gt;Synthesis of the skills and tools we’d learned&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our final session was revisiting and practicing all that we had learned throughout the workshop while participants also collaborated on RMarkdown files with each other through GitHub.&lt;/p&gt;
+&lt;p&gt;The vibe throughout the workshop was fun and lighthearted, which is exactly what we were hoping for. In addition to “Alligator mouth dash”, my favorite moment in the whole workshop was an audible whisper (“very nice!”) from someone using &lt;code&gt;separate()&lt;/code&gt; for the first time. A close second was the cheers for &lt;code&gt;janitor::clean_names()&lt;/code&gt; and Allison’s responding, “Yes, this is worth cheering over!”. Our attendees were hard-working folks with a great attitude and sense of humor, who are now equipped for more exciting steps in their R journey.&lt;/p&gt;
+&lt;center&gt;
+&lt;a href = &#34;https://twitter.com/juliesquid/status/1222325096699686912&#34;&gt;
+&lt;img src=&#34;tweet-juliesquid-r-for-excel.png&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+&lt;div id=&#34;whats-next&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What’s next&lt;/h2&gt;
+&lt;p&gt;We loved developing and teaching R for Excel Users, and hope to do it again. Our course materials evolved quite a bit throughout months of development, and were hugely helped by a pilot workshop we ran at UC Santa Barbara in early December. Even so, there are little things we would like to iron out and improve upon for next time. And we will also update the Book with images from the Slides so that the Book is completely self-contained and the Slides are a bonus, rather than a necessity.&lt;/p&gt;
+&lt;p&gt;We also got feedback that we should change the name of the course because while it has some framing from Excel, it is certainly not limited to Excel Users. This seems like a good idea. When we were first talking to RStudio’s Alison Hill about the workshop, we discussed how it could be somewhat of a precursor to Jenny Bryan and Jim Hester’s What They Forgot to Teach You About R – ours being What You Should Know When You Learn R. Jenny and Jim’s have a great acronym, WTF, so I have been thinking about names. I learned from Jenny that WTF was a welcome byproduct that came after they came up with the workshop name, but I have to approach it as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Backronym&#34;&gt;backronym&lt;/a&gt;. I’ve had many terrible ideas, but! Through cocktail chats at the conference with Charlotte Wickham and Hannah Frick, we landed on TLDR being best. I love Charlotte’s suggestion of Take a Leap and Dive into R or my less-great Time to Learn Data analysis in R. This is an ongoing pursuit, and suggestions are very welcomed :).&lt;/p&gt;
+&lt;img src=&#34;r-for-excel-monsters.jpg&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+photo by Brunel Johnson with art by Allison Horst
+&lt;/figcaption&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,3143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Allison Horst</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>Penguin wrangling in dplyr - a learnr tutorial</title>
+      <link>/post/2021-02-08-dplyr-learnr/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-02-08-dplyr-learnr/</guid>
+      <description>
+&lt;script src=&#34;/post/2021-02-08-dplyr-learnr/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I recently made a &lt;code&gt;learnr&lt;/code&gt; tutorial introducing some functions in &lt;code&gt;dplyr&lt;/code&gt; for data wrangling. Check it out:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://allisonhorst.shinyapps.io/dplyr-learnr/&#34; class=&#34;uri&#34;&gt;https://allisonhorst.shinyapps.io/dplyr-learnr/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here’s the GitHub repo in case anyone wants to modify/update this for your own courses:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/allisonhorst/dplyr-learnr&#34; class=&#34;uri&#34;&gt;https://github.com/allisonhorst/dplyr-learnr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Have fun wrangling penguins!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tidy data for reproducibility, efficiency, and collaboration (originally published on the Openscapes blog)</title>
+      <link>/post/2020-10-12-tidydata-openscapes/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-10-12-tidydata-openscapes/</guid>
+      <description>
+&lt;script src=&#34;/post/2020-10-12-tidydata-openscapes/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://jules32.github.io/&#34;&gt;Dr. Julia Lowndes&lt;/a&gt; spearheaded a collaboration to create a visual explanation of how working with tidy data can make data science more efficient, reproducible, and collaborative!&lt;/p&gt;
+&lt;p&gt;Check out our blog post, including original illustrations, &lt;a href=&#34;https://www.openscapes.org/blog/2020/10/12/tidy-data/&#34;&gt;HERE&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Make friends with tidy data!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>palmerpenguins on CRAN</title>
+      <link>/post/2020-08-01-palmerpenguins-on-cran/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-08-01-palmerpenguins-on-cran/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;With Drs. &lt;a href=&#34;https://alison.rbind.io/&#34;&gt;Alison Hill&lt;/a&gt; and &lt;a href=&#34;https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php&#34;&gt;Kristen B. Gorman&lt;/a&gt;, we developed a data package with structural size measurements (and more!) for 3 species of penguins recorded at islands in Palmer Archipelago, Antarctica. The penguins data are a great drop-in alternative to the iris data (which is most commonly cited for its use in eugenicist R.A. Fisher’s 1936 publication in &lt;em&gt;Annals of Eugenics&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Learn more!&lt;/p&gt;
+&lt;p&gt;Read our post on the RStudio Education blog: &lt;a href=&#34;https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/&#34; class=&#34;uri&#34;&gt;https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visit our package website for more information: &lt;a href=&#34;https://allisonhorst.github.io/palmerpenguins/&#34; class=&#34;uri&#34;&gt;https://allisonhorst.github.io/palmerpenguins/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Find them on CRAN: &lt;a href=&#34;https://cran.r-project.org/web/packages/palmerpenguins/index.html&#34; class=&#34;uri&#34;&gt;https://cran.r-project.org/web/packages/palmerpenguins/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Have fun with the palmerpenguins!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teach R with learnr</title>
+      <link>/post/teach-r-with-learnr/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      <guid>/post/teach-r-with-learnr/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Cross-posted from the RStudio Education blog.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Check out my &lt;a href=&#34;https://education.rstudio.com/blog/2020/05/learnr-for-remote/&#34;&gt;new post&lt;/a&gt; for RStudio Ed, describing how I use the &lt;code&gt;learnr&lt;/code&gt; package to facilitate teaching and learning for remote classes with R beginners!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Customizing tables is fun (seriously) with gt</title>
+      <link>/post/2020-03-02-gt-tables-examples/</link>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-03-02-gt-tables-examples/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I made this little self-tutorial last year because I was &lt;strong&gt;really&lt;/strong&gt; excited about being able to more simply customize tables with the &lt;a href=&#34;https://github.com/rstudio/gt&#34;&gt;&lt;code&gt;gt&lt;/code&gt;&lt;/a&gt; package by &lt;a href=&#34;https://twitter.com/riannone&#34;&gt;Rich Iannone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I also quickly realized that I needed to do some simple examples to get started. Here are a few different &lt;code&gt;gt&lt;/code&gt; tables that worked, using short examples with data existing in the &lt;em&gt;datasets&lt;/em&gt; package or that I create here.&lt;/p&gt;
+&lt;p&gt;What I tried in these example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Example 0: A first shot at just making the damn thing&lt;/li&gt;
+&lt;li&gt;Example 1: Customizing title, column headers, and digits&lt;/li&gt;
+&lt;li&gt;Example 2: Updating cell colors and adding footnotes&lt;/li&gt;
+&lt;li&gt;Example 3: Updating NAs and hiding columns&lt;/li&gt;
+&lt;li&gt;Example 4: Scientific notation!&lt;/li&gt;
+&lt;li&gt;Example 5: Formatted dates and column spanning labels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall feelings about gt: so awesome and user friendly!!! Make sure to check out the beautiful and wonderfully easy-to-follow documentation for the &lt;code&gt;gt&lt;/code&gt; package: &lt;a href=&#34;https://github.com/rstudio/gt&#34; class=&#34;uri&#34;&gt;https://github.com/rstudio/gt&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;attach-packages&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Attach packages&lt;/h3&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+library(gt)
+
+# To install gt:
+# install.packages(&amp;quot;devtools&amp;quot;)
+# library(devtools)
+# remotes::install_github(&amp;quot;rstudio/gt&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;examples&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Examples&lt;/h2&gt;
+&lt;div id=&#34;example-0&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Example 0&lt;/h3&gt;
+&lt;div id=&#34;it-really-just-works&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;It really just works…&lt;/h4&gt;
+&lt;p&gt;Make a table of the first 5 observations in the ‘rock’ dataset.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rock %&amp;gt;% # Get &amp;#39;rock&amp;#39; data
+  head(5) %&amp;gt;% # First 5 lines only
+  gt() # Make a table, it just works. &lt;/code&gt;&lt;/pre&gt;
+&lt;style&gt;html {
+  font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
+}
+
+#bccxvlstgr .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#bccxvlstgr .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#bccxvlstgr .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#bccxvlstgr .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#bccxvlstgr .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#bccxvlstgr .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#bccxvlstgr .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#bccxvlstgr .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#bccxvlstgr .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#bccxvlstgr .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#bccxvlstgr .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#bccxvlstgr .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#bccxvlstgr .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#bccxvlstgr .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#bccxvlstgr .gt_from_md &gt; :first-child {
+  margin-top: 0;
+}
+
+#bccxvlstgr .gt_from_md &gt; :last-child {
+  margin-bottom: 0;
+}
+
+#bccxvlstgr .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#bccxvlstgr .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#bccxvlstgr .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bccxvlstgr .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#bccxvlstgr .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bccxvlstgr .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#bccxvlstgr .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#bccxvlstgr .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#bccxvlstgr .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#bccxvlstgr .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#bccxvlstgr .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#bccxvlstgr .gt_left {
+  text-align: left;
+}
+
+#bccxvlstgr .gt_center {
+  text-align: center;
+}
+
+#bccxvlstgr .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#bccxvlstgr .gt_font_normal {
+  font-weight: normal;
+}
+
+#bccxvlstgr .gt_font_bold {
+  font-weight: bold;
+}
+
+#bccxvlstgr .gt_font_italic {
+  font-style: italic;
+}
+
+#bccxvlstgr .gt_super {
+  font-size: 65%;
+}
+
+#bccxvlstgr .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+&lt;/style&gt;
+&lt;div id=&#34;bccxvlstgr&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+  
+  &lt;thead class=&#34;gt_col_headings&#34;&gt;
+    &lt;tr&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;area&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;peri&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;shape&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;perm&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&#34;gt_table_body&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;4990&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;2791.90&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;0.0903296&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;6.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;7002&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;3892.60&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;0.1486220&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;6.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;7558&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;3930.66&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;0.1833120&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;6.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;7352&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;3869.32&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;0.1170630&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;6.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;7943&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;3948.54&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;0.1224170&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;17.1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  
+  
+&lt;/table&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;example-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Example 1&lt;/h3&gt;
+&lt;div id=&#34;the-first-try-at-customization&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;The first try at customization&lt;/h4&gt;
+&lt;p&gt;Biological oxygen demand table (BOD)&lt;/p&gt;
+&lt;p&gt;Use the built-in dataset BOD to create a simple customized table. The BOD dataset (see &lt;code&gt;?BOD&lt;/code&gt; for documentation) has two columns: &lt;strong&gt;Time&lt;/strong&gt; and &lt;strong&gt;demand&lt;/strong&gt; (both numeric).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;BOD %&amp;gt;% # Get the data...
+gt() %&amp;gt;% # use &amp;#39;gt&amp;#39; to make an awesome table...
+  tab_header( 
+    title = &amp;quot;BOD Table Woooooo!&amp;quot;, # ...with this title
+    subtitle = &amp;quot;Hooray gt!&amp;quot;) %&amp;gt;% # and this subtitle
+  fmt_number( # A column (numeric data)
+    columns = vars(Time), # What column variable? BOD$Time
+    decimals = 2 # With two decimal places
+    ) %&amp;gt;% 
+  fmt_number( # Another column (also numeric data)
+    columns = vars(demand), # What column variable? BOD$demand
+    decimals = 1 # I want this column to have one decimal place
+  ) %&amp;gt;% 
+  cols_label(Time = &amp;quot;Time (hours)&amp;quot;, demand = &amp;quot;Demand (mg/L)&amp;quot;) # Update labels&lt;/code&gt;&lt;/pre&gt;
+&lt;style&gt;html {
+  font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
+}
+
+#rukglwdzhp .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#rukglwdzhp .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#rukglwdzhp .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#rukglwdzhp .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#rukglwdzhp .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#rukglwdzhp .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#rukglwdzhp .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#rukglwdzhp .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#rukglwdzhp .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#rukglwdzhp .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#rukglwdzhp .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#rukglwdzhp .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#rukglwdzhp .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#rukglwdzhp .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#rukglwdzhp .gt_from_md &gt; :first-child {
+  margin-top: 0;
+}
+
+#rukglwdzhp .gt_from_md &gt; :last-child {
+  margin-bottom: 0;
+}
+
+#rukglwdzhp .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#rukglwdzhp .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#rukglwdzhp .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#rukglwdzhp .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#rukglwdzhp .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#rukglwdzhp .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#rukglwdzhp .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#rukglwdzhp .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#rukglwdzhp .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#rukglwdzhp .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#rukglwdzhp .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#rukglwdzhp .gt_left {
+  text-align: left;
+}
+
+#rukglwdzhp .gt_center {
+  text-align: center;
+}
+
+#rukglwdzhp .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#rukglwdzhp .gt_font_normal {
+  font-weight: normal;
+}
+
+#rukglwdzhp .gt_font_bold {
+  font-weight: bold;
+}
+
+#rukglwdzhp .gt_font_italic {
+  font-style: italic;
+}
+
+#rukglwdzhp .gt_super {
+  font-size: 65%;
+}
+
+#rukglwdzhp .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+&lt;/style&gt;
+&lt;div id=&#34;rukglwdzhp&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+  &lt;thead class=&#34;gt_header&#34;&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&#34;2&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;BOD Table Woooooo!&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&#34;2&#34; class=&#34;gt_heading gt_subtitle gt_font_normal gt_bottom_border&#34; style&gt;Hooray gt!&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;thead class=&#34;gt_col_headings&#34;&gt;
+    &lt;tr&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Time (hours)&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Demand (mg/L)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&#34;gt_table_body&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;1.00&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;8.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;2.00&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;10.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;3.00&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;19.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;4.00&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;16.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;5.00&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;15.6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;7.00&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;19.8&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  
+  
+&lt;/table&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;example-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Example 2&lt;/h3&gt;
+&lt;div id=&#34;the-one-where-i-added-colors-and-footnotes&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;The one where I added colors and footnotes&lt;/h4&gt;
+&lt;p&gt;ToothGrowth (VitC effect on tooth growth in guinea pigs)&lt;/p&gt;
+&lt;p&gt;See &lt;code&gt;?ToothGrowth&lt;/code&gt; for dataset documentation. The ToothGrowth dataset has three variables: &lt;strong&gt;len&lt;/strong&gt; (tooth length), &lt;strong&gt;supp&lt;/strong&gt; (supplement ID), &lt;strong&gt;dose&lt;/strong&gt; (dosage). I use &lt;code&gt;group_by()&lt;/code&gt; + &lt;code&gt;summarize()&lt;/code&gt; here to find mean tooth length grouped by supplement and dosage first, then create a table of the means.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Some wrangling (grouped means by supplement + dosage):
+
+tooth_length &amp;lt;- ToothGrowth %&amp;gt;% 
+  group_by(supp, dose) %&amp;gt;% 
+  summarize(
+    mean_len = mean(len)
+  ) %&amp;gt;% 
+  as_tibble() 
+
+# A gt table: 
+tooth_length %&amp;gt;% # Take tooth_length
+  gt() %&amp;gt;% # Make a gt table with it
+  tab_header(
+    title = &amp;quot;A title just like that&amp;quot;, # Add a title
+    subtitle = &amp;quot;(with something below it!)&amp;quot; # And a subtitle
+  ) %&amp;gt;%
+  fmt_passthrough( # Not sure about this but it works...
+    columns = vars(supp) # First column: supp (character)
+  ) %&amp;gt;% 
+  fmt_number(
+    columns = vars(mean_len), # Second column: mean_len (numeric)
+    decimals = 2 # With 4 decimal places
+  ) %&amp;gt;% 
+  fmt_number(
+    columns = vars(dose), # Third column: dose (numeric)
+    decimals = 2 # With 2 decimal places
+  ) %&amp;gt;% 
+  data_color( # Update cell colors...
+    columns = vars(supp), # ...for supp column!
+    colors = scales::col_factor( # &amp;lt;- bc it&amp;#39;s a factor
+      palette = c(
+        &amp;quot;green&amp;quot;,&amp;quot;cyan&amp;quot;), # Two factor levels, two colors
+      domain = c(&amp;quot;OJ&amp;quot;,&amp;quot;VC&amp;quot;)# Levels
+  )
+  ) %&amp;gt;% 
+  data_color( # Update cell colors...
+    columns = vars(dose), # ...for dose column 
+    colors = scales::col_numeric( # &amp;lt;- bc it&amp;#39;s numeric
+      palette = c(
+        &amp;quot;yellow&amp;quot;,&amp;quot;orange&amp;quot;), # A color scheme (gradient)
+      domain = c(0.5,2) # Column scale endpoints
+  )
+  ) %&amp;gt;% 
+  data_color( # Update cell colors...
+    columns = vars(mean_len), # ...for mean_len column
+    colors = scales::col_numeric(
+      palette = c(
+        &amp;quot;red&amp;quot;, &amp;quot;purple&amp;quot;), # Overboard colors! 
+      domain = c(7,27) # Column scale endpoints
+  )
+  ) %&amp;gt;% 
+  cols_label(supp = &amp;quot;Supplement&amp;quot;, dose = &amp;quot;Dosage (mg/d)&amp;quot;, mean_len = &amp;quot;Mean Tooth Length&amp;quot;) %&amp;gt;% # Make the column headers
+  tab_footnote(
+    footnote = &amp;quot;Baby footnote test&amp;quot;, # This is the footnote text
+    locations = cells_column_labels(
+      columns = vars(supp) # Associated with column &amp;#39;supp&amp;#39;
+      )
+    ) %&amp;gt;% 
+    tab_footnote(
+    footnote = &amp;quot;A second footnote&amp;quot;, # Another line of footnote text
+    locations = cells_column_labels( 
+      columns = vars(dose) # Associated with column &amp;#39;dose&amp;#39;
+      )
+    )&lt;/code&gt;&lt;/pre&gt;
+&lt;style&gt;html {
+  font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
+}
+
+#qlsynjrhes .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#qlsynjrhes .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#qlsynjrhes .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#qlsynjrhes .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#qlsynjrhes .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qlsynjrhes .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#qlsynjrhes .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#qlsynjrhes .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#qlsynjrhes .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#qlsynjrhes .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#qlsynjrhes .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#qlsynjrhes .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#qlsynjrhes .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#qlsynjrhes .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#qlsynjrhes .gt_from_md &gt; :first-child {
+  margin-top: 0;
+}
+
+#qlsynjrhes .gt_from_md &gt; :last-child {
+  margin-bottom: 0;
+}
+
+#qlsynjrhes .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#qlsynjrhes .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#qlsynjrhes .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qlsynjrhes .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#qlsynjrhes .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qlsynjrhes .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#qlsynjrhes .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qlsynjrhes .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#qlsynjrhes .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#qlsynjrhes .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#qlsynjrhes .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#qlsynjrhes .gt_left {
+  text-align: left;
+}
+
+#qlsynjrhes .gt_center {
+  text-align: center;
+}
+
+#qlsynjrhes .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#qlsynjrhes .gt_font_normal {
+  font-weight: normal;
+}
+
+#qlsynjrhes .gt_font_bold {
+  font-weight: bold;
+}
+
+#qlsynjrhes .gt_font_italic {
+  font-style: italic;
+}
+
+#qlsynjrhes .gt_super {
+  font-size: 65%;
+}
+
+#qlsynjrhes .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+&lt;/style&gt;
+&lt;div id=&#34;qlsynjrhes&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+  &lt;thead class=&#34;gt_header&#34;&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&#34;3&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;A title just like that&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&#34;3&#34; class=&#34;gt_heading gt_subtitle gt_font_normal gt_bottom_border&#34; style&gt;(with something below it!)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;thead class=&#34;gt_col_headings&#34;&gt;
+    &lt;tr&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Supplement&lt;sup class=&#34;gt_footnote_marks&#34;&gt;1&lt;/sup&gt;&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Dosage (mg/d)&lt;sup class=&#34;gt_footnote_marks&#34;&gt;2&lt;/sup&gt;&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Mean Tooth Length&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&#34;gt_table_body&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34; style=&#34;background-color: #00FF00; color: #000000;&#34;&gt;OJ&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #FFFF00; color: #000000;&#34;&gt;0.50&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #F00058; color: #FFFFFF;&#34;&gt;13.23&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34; style=&#34;background-color: #00FF00; color: #000000;&#34;&gt;OJ&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #FFE100; color: #000000;&#34;&gt;1.00&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #C60DBF; color: #FFFFFF;&#34;&gt;22.70&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34; style=&#34;background-color: #00FF00; color: #000000;&#34;&gt;OJ&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #FFA500; color: #000000;&#34;&gt;2.00&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #AA1CE5; color: #FFFFFF;&#34;&gt;26.06&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34; style=&#34;background-color: #00FFFF; color: #000000;&#34;&gt;VC&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #FFFF00; color: #000000;&#34;&gt;0.50&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #FD0018; color: #FFFFFF;&#34;&gt;7.98&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34; style=&#34;background-color: #00FFFF; color: #000000;&#34;&gt;VC&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #FFE100; color: #000000;&#34;&gt;1.00&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #E5007E; color: #FFFFFF;&#34;&gt;16.77&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34; style=&#34;background-color: #00FFFF; color: #000000;&#34;&gt;VC&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #FFA500; color: #000000;&#34;&gt;2.00&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #A91DE6; color: #FFFFFF;&#34;&gt;26.14&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  
+  &lt;tfoot&gt;
+    &lt;tr class=&#34;gt_footnotes&#34;&gt;
+      &lt;td colspan=&#34;3&#34;&gt;
+        &lt;p class=&#34;gt_footnote&#34;&gt;
+          &lt;sup class=&#34;gt_footnote_marks&#34;&gt;
+            &lt;em&gt;1&lt;/em&gt;
+          &lt;/sup&gt;
+           
+          Baby footnote test
+          &lt;br /&gt;
+        &lt;/p&gt;
+        &lt;p class=&#34;gt_footnote&#34;&gt;
+          &lt;sup class=&#34;gt_footnote_marks&#34;&gt;
+            &lt;em&gt;2&lt;/em&gt;
+          &lt;/sup&gt;
+           
+          A second footnote
+          &lt;br /&gt;
+        &lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;example-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Example 3&lt;/h3&gt;
+&lt;div id=&#34;updating-nas-hiding-columns&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Updating &lt;code&gt;NA&lt;/code&gt;s, hiding columns&lt;/h4&gt;
+&lt;p&gt;Using first 10 observations in the ‘airquality’ dataset. Existing variables: &lt;strong&gt;Ozone&lt;/strong&gt;, &lt;strong&gt;Solar.R&lt;/strong&gt;, &lt;strong&gt;Wind&lt;/strong&gt;, &lt;strong&gt;Temp&lt;/strong&gt;, &lt;strong&gt;Month&lt;/strong&gt;, &lt;strong&gt;Day&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;airquality %&amp;gt;% # Take the &amp;#39;airquality&amp;#39; dataset...
+  head(10) %&amp;gt;% # Then just grab the first 10 observations...
+  gt() %&amp;gt;% # Then make a gt table
+  tab_header(
+    title = &amp;quot;Air Quality dataset&amp;quot;, # Add a title
+    subtitle = &amp;quot;...also with a subtitle&amp;quot; # And a subtitle
+  ) %&amp;gt;%
+  fmt_missing( # Then reassign the &amp;#39;NA&amp;#39; values to something new
+    columns = vars(Ozone), # For variable &amp;#39;Ozone&amp;#39;, make &amp;quot;NA&amp;quot;s
+    missing_text = &amp;quot;Teddy&amp;quot; # ...to &amp;quot;Teddy&amp;quot; instead
+  ) %&amp;gt;% 
+  fmt_missing( # Reassign NAs for another column
+    columns = vars(Solar.R), # For variable &amp;#39;Solar.R&amp;#39;, make &amp;quot;NA&amp;quot;s
+    missing_text = &amp;quot;Dog&amp;quot; # ...to &amp;quot;Dog&amp;quot; instead
+  ) %&amp;gt;% 
+  cols_hide( # Then hide the &amp;#39;Wind&amp;#39; and &amp;#39;Month&amp;#39; variables
+    columns = vars(Wind, Month)
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;style&gt;html {
+  font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
+}
+
+#sdpxitxpfo .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#sdpxitxpfo .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#sdpxitxpfo .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#sdpxitxpfo .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#sdpxitxpfo .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sdpxitxpfo .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#sdpxitxpfo .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#sdpxitxpfo .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#sdpxitxpfo .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#sdpxitxpfo .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#sdpxitxpfo .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#sdpxitxpfo .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#sdpxitxpfo .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#sdpxitxpfo .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#sdpxitxpfo .gt_from_md &gt; :first-child {
+  margin-top: 0;
+}
+
+#sdpxitxpfo .gt_from_md &gt; :last-child {
+  margin-bottom: 0;
+}
+
+#sdpxitxpfo .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#sdpxitxpfo .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#sdpxitxpfo .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sdpxitxpfo .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#sdpxitxpfo .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sdpxitxpfo .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#sdpxitxpfo .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sdpxitxpfo .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#sdpxitxpfo .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#sdpxitxpfo .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#sdpxitxpfo .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#sdpxitxpfo .gt_left {
+  text-align: left;
+}
+
+#sdpxitxpfo .gt_center {
+  text-align: center;
+}
+
+#sdpxitxpfo .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#sdpxitxpfo .gt_font_normal {
+  font-weight: normal;
+}
+
+#sdpxitxpfo .gt_font_bold {
+  font-weight: bold;
+}
+
+#sdpxitxpfo .gt_font_italic {
+  font-style: italic;
+}
+
+#sdpxitxpfo .gt_super {
+  font-size: 65%;
+}
+
+#sdpxitxpfo .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+&lt;/style&gt;
+&lt;div id=&#34;sdpxitxpfo&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+  &lt;thead class=&#34;gt_header&#34;&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&#34;4&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Air Quality dataset&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&#34;4&#34; class=&#34;gt_heading gt_subtitle gt_font_normal gt_bottom_border&#34; style&gt;...also with a subtitle&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;thead class=&#34;gt_col_headings&#34;&gt;
+    &lt;tr&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Ozone&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Solar.R&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Temp&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Day&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&#34;gt_table_body&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;41&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;190&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;67&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;36&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;118&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;72&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;12&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;149&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;74&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;18&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;313&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;62&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;Teddy&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;Dog&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;56&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;28&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;Dog&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;66&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;23&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;299&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;65&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;19&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;99&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;59&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;8&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;19&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;61&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;Teddy&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;194&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;69&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;10&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  
+  
+&lt;/table&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;example-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Example 4&lt;/h3&gt;
+&lt;div id=&#34;scientific-notation-and-more-colors-cant-help-it&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Scientific notation (…and more colors, can’t help it…)&lt;/h4&gt;
+&lt;p&gt;I’ll just make some data here (tibble ‘fake’):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fake &amp;lt;- tribble( # Create a tibble...
+  ~Species, ~Height, ~Mass, # These will be the column names (variables)
+  &amp;quot;Blarg&amp;quot;, 20500, 1980, # Row 1
+  &amp;quot;Gorple&amp;quot;, 17000, 775, # Row 2
+  &amp;quot;Roglob&amp;quot;, 11820, 20, # Row 3
+  &amp;quot;Fwerpy&amp;quot;, 8005, 352 # Row 4
+) %&amp;gt;% 
+  arrange(-Mass) # Arrange high-to-low by values in Mass column&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then make a little table of ‘fake’ with values in scientific notation:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fake %&amp;gt;% 
+  gt() %&amp;gt;% 
+  tab_header(
+    title = &amp;quot;Fake species data&amp;quot;, # Add a title
+    subtitle = &amp;quot;another useful subtitle&amp;quot; # And a subtitle
+  ) %&amp;gt;%
+  fmt_scientific( # Reformat to scientific notation...
+    columns = vars(Height), # The values for the &amp;#39;Height&amp;#39; variable
+    decimals = 3 # Keeping 3 decimal places
+  ) %&amp;gt;% 
+  fmt_scientific( # Reformat to scientific notation...
+    columns = vars(Mass), # The values for the &amp;#39;Mass&amp;#39; variable
+    decimals = 1 # Keeping 1 decimal place
+  ) %&amp;gt;% 
+  data_color( # Update cell colors...
+    columns = vars(Mass), # ...for Mass column 
+    colors = scales::col_numeric( # &amp;lt;- bc it&amp;#39;s numeric
+      palette = c(
+        &amp;quot;yellow&amp;quot;, &amp;quot;red&amp;quot;, &amp;quot;purple&amp;quot;), # A color scheme (gradient)
+      domain = c(1e1, 2e3) # Column scale endpoints
+  )
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;style&gt;html {
+  font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
+}
+
+#gsozvfajos .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#gsozvfajos .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gsozvfajos .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#gsozvfajos .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#gsozvfajos .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gsozvfajos .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gsozvfajos .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#gsozvfajos .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#gsozvfajos .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#gsozvfajos .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#gsozvfajos .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#gsozvfajos .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#gsozvfajos .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#gsozvfajos .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#gsozvfajos .gt_from_md &gt; :first-child {
+  margin-top: 0;
+}
+
+#gsozvfajos .gt_from_md &gt; :last-child {
+  margin-bottom: 0;
+}
+
+#gsozvfajos .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#gsozvfajos .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#gsozvfajos .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gsozvfajos .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#gsozvfajos .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gsozvfajos .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#gsozvfajos .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gsozvfajos .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gsozvfajos .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#gsozvfajos .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gsozvfajos .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#gsozvfajos .gt_left {
+  text-align: left;
+}
+
+#gsozvfajos .gt_center {
+  text-align: center;
+}
+
+#gsozvfajos .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#gsozvfajos .gt_font_normal {
+  font-weight: normal;
+}
+
+#gsozvfajos .gt_font_bold {
+  font-weight: bold;
+}
+
+#gsozvfajos .gt_font_italic {
+  font-style: italic;
+}
+
+#gsozvfajos .gt_super {
+  font-size: 65%;
+}
+
+#gsozvfajos .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+&lt;/style&gt;
+&lt;div id=&#34;gsozvfajos&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+  &lt;thead class=&#34;gt_header&#34;&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&#34;3&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Fake species data&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&#34;3&#34; class=&#34;gt_heading gt_subtitle gt_font_normal gt_bottom_border&#34; style&gt;another useful subtitle&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;thead class=&#34;gt_col_headings&#34;&gt;
+    &lt;tr&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_left&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Species&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Height&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Mass&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&#34;gt_table_body&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_left&#34;&gt;Blarg&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;2.050 &amp;times; 10&lt;sup class=&#39;gt_super&#39;&gt;4&lt;/sup&gt;&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #A41EEB; color: #FFFFFF;&#34;&gt;2.0 &amp;times; 10&lt;sup class=&#39;gt_super&#39;&gt;3&lt;/sup&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_left&#34;&gt;Gorple&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;1.700 &amp;times; 10&lt;sup class=&#39;gt_super&#39;&gt;4&lt;/sup&gt;&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #FF6700; color: #000000;&#34;&gt;7.8 &amp;times; 10&lt;sup class=&#39;gt_super&#39;&gt;2&lt;/sup&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_left&#34;&gt;Fwerpy&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;8.005 &amp;times; 10&lt;sup class=&#39;gt_super&#39;&gt;3&lt;/sup&gt;&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #FFC000; color: #000000;&#34;&gt;3.5 &amp;times; 10&lt;sup class=&#39;gt_super&#39;&gt;2&lt;/sup&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_left&#34;&gt;Roglob&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;1.182 &amp;times; 10&lt;sup class=&#39;gt_super&#39;&gt;4&lt;/sup&gt;&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34; style=&#34;background-color: #FFFD00; color: #000000;&#34;&gt;2.0 &amp;times; 10&lt;sup class=&#39;gt_super&#39;&gt;1&lt;/sup&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  
+  
+&lt;/table&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;example-5&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Example 5&lt;/h3&gt;
+&lt;div id=&#34;date-formatting-column-spanning-labels&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Date formatting + column spanning labels&lt;/h4&gt;
+&lt;p&gt;First, I’ll make a little tibble with dates:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;date_trial &amp;lt;- tribble( # Create a tibble...
+  ~Date, ~Temp, ~Rain, ~Flavor, # These will be the variables (column names)
+  &amp;quot;1980-01-04&amp;quot;, 75, 0.4, &amp;quot;Grape&amp;quot;, # Row 1 
+  &amp;quot;1975-05-28&amp;quot;, 80, 0.2, &amp;quot;Strawberry&amp;quot;, # Row 2
+  &amp;quot;1993-09-02&amp;quot;, 94, 0.1, &amp;quot;Chocolate&amp;quot; # Row 3
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then into a nice table:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;date_trial %&amp;gt;% 
+  gt() %&amp;gt;% 
+  fmt_date(
+    columns = vars(Date),
+    date_style = 5 # Try different numbers here to reformat! So cool!
+  ) %&amp;gt;% 
+  tab_spanner(
+    label = &amp;quot;Weather&amp;quot;,
+    columns = vars(Temp, Rain)
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;style&gt;html {
+  font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
+}
+
+#ijjiedsihz .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#ijjiedsihz .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ijjiedsihz .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#ijjiedsihz .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#ijjiedsihz .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ijjiedsihz .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ijjiedsihz .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#ijjiedsihz .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#ijjiedsihz .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#ijjiedsihz .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#ijjiedsihz .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#ijjiedsihz .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ijjiedsihz .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ijjiedsihz .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#ijjiedsihz .gt_from_md &gt; :first-child {
+  margin-top: 0;
+}
+
+#ijjiedsihz .gt_from_md &gt; :last-child {
+  margin-bottom: 0;
+}
+
+#ijjiedsihz .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#ijjiedsihz .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#ijjiedsihz .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ijjiedsihz .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#ijjiedsihz .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ijjiedsihz .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#ijjiedsihz .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ijjiedsihz .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ijjiedsihz .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#ijjiedsihz .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ijjiedsihz .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#ijjiedsihz .gt_left {
+  text-align: left;
+}
+
+#ijjiedsihz .gt_center {
+  text-align: center;
+}
+
+#ijjiedsihz .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ijjiedsihz .gt_font_normal {
+  font-weight: normal;
+}
+
+#ijjiedsihz .gt_font_bold {
+  font-weight: bold;
+}
+
+#ijjiedsihz .gt_font_italic {
+  font-style: italic;
+}
+
+#ijjiedsihz .gt_super {
+  font-size: 65%;
+}
+
+#ijjiedsihz .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+&lt;/style&gt;
+&lt;div id=&#34;ijjiedsihz&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+  
+  &lt;thead class=&#34;gt_col_headings&#34;&gt;
+    &lt;tr&gt;
+      &lt;th class=&#34;gt_col_heading gt_center gt_columns_bottom_border&#34; rowspan=&#34;2&#34; colspan=&#34;1&#34;&gt;Date&lt;/th&gt;
+      &lt;th class=&#34;gt_center gt_columns_top_border gt_column_spanner_outer&#34; rowspan=&#34;1&#34; colspan=&#34;2&#34;&gt;
+        &lt;span class=&#34;gt_column_spanner&#34;&gt;Weather&lt;/span&gt;
+      &lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_center gt_columns_bottom_border&#34; rowspan=&#34;2&#34; colspan=&#34;1&#34;&gt;Flavor&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Temp&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Rain&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&#34;gt_table_body&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_left&#34;&gt;January 4, 1980&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;75&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;0.4&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_left&#34;&gt;Grape&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_left&#34;&gt;May 28, 1975&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;80&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;0.2&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_left&#34;&gt;Strawberry&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_left&#34;&gt;September 2, 1993&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;94&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;0.1&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_left&#34;&gt;Chocolate&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  
+  
+&lt;/table&gt;&lt;/div&gt;
+&lt;p&gt;Give &lt;code&gt;gt&lt;/code&gt; a whirl! For me, the trade-off of writing more lines- but ones that I can easily understand and control when customizing tables - is well worth it, and actually pretty fun.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Birds of a feather, drawn together</title>
+      <link>/post/bof-artwork/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/post/bof-artwork/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;em&gt;By Allison Horst, Curtis Kephart, and Yanina Bellini&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cross-posted:&lt;/em&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;bof_herobanner_bluebg_final.png&#34; width=&#34;600px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+Birds of a Feather banner for RStudio::conf(2020)!
+&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;p&gt;The “&lt;a href=&#34;http://community.rstudio.com/bof&#34;&gt;Birds of a Feather&lt;/a&gt;” (BoF) sessions at the &lt;a href=&#34;https://rstudio.com/conference/&#34;&gt;2020 RStudio Conference&lt;/a&gt; were a place where R-users with similar backgrounds, interests, and aspirations could connect in a low-stress social setting. In other words - these sessions let “birds of a feather flock together.” Building on the 2019 conference swag, we rolled out a bunch of new BoF buttons for rstudio::conf 2020.&lt;/p&gt;
+&lt;p&gt;Here we’ll share the process for how some of the designs were created, including several that truly involved a flock of contributors (names for groups of birds are from &lt;a href=&#34;https://www.birdspot.co.uk/articles/collective-nouns-for-birds&#34;&gt;Bird Spot&lt;/a&gt;).&lt;/p&gt;
+&lt;div id=&#34;well-what-can-we-realistically-fit-on-a-1.5-button&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Well, what can we realistically fit on a 1.5&#34; button?&lt;/h3&gt;
+&lt;p&gt;The cool and challenging thing about designing the BoF buttons was the size restriction. In a 1.5&#34; button, we wanted to create designs that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reflect the group name and/or community&lt;/li&gt;
+&lt;li&gt;Include at least one bird&lt;/li&gt;
+&lt;li&gt;Are obviously distinguishable for each group&lt;/li&gt;
+&lt;li&gt;Add some readable text&lt;/li&gt;
+&lt;li&gt;Oh also, all while setting an approachable tone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It turns out the answer to “What can you fit on a 1.5” button?&#34; is…actually quite a lot. Here are a few of the designs:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-science-team-leaders&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Data science team leaders&lt;/h3&gt;
+&lt;p&gt;Featuring 80’s beach volleyball sandpiper coach leading a team of R users:&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;team_leaders_v1.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact:&lt;/strong&gt; a group of sandpipers can be called a &lt;em&gt;fling&lt;/em&gt; or a &lt;em&gt;bind&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;natural-language-processing&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Natural language processing&lt;/h3&gt;
+&lt;p&gt;Featuring a wordy bird - a parrot!&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;natural_language_processing_v1.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Fun facts:&lt;/strong&gt; Groups of parrots are sometimes called &lt;em&gt;companies&lt;/em&gt;, a &lt;em&gt;prattles&lt;/em&gt;, or &lt;em&gt;pandemoniums&lt;/em&gt;. Also, parrots are the only birds that can use their feet (like hands) to serve themselves food. And one more thing - the text in the background of this design is a line from Patrick Rothfuss’ &lt;em&gt;The Name of the Wind&lt;/em&gt; (one of artist &lt;span class=&#34;citation&#34;&gt;@allison_horst&lt;/span&gt;’s favorite books).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-spatially-aware-carrier-pigeon&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;The spatially aware carrier pigeon…&lt;/h3&gt;
+&lt;p&gt;…checking flight routes before setting off on their next delivery:&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;spatial_v2.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact:&lt;/strong&gt; A group of pigeons is sometimes called a &lt;em&gt;kit&lt;/em&gt; or a &lt;em&gt;loft&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;community-driven-designs&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Community-driven designs&lt;/h1&gt;
+&lt;p&gt;Several of the designs - especially R-Latin America, R-Africa, and R-Ladies - depended on recommendations, insights, and feedback from multiple members of those communities. Here, we’ll highlight elements and contributors of several community-driven designs.&lt;/p&gt;
+&lt;div id=&#34;r-latin-america&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;R-Latin America&lt;/h3&gt;
+&lt;center&gt;
+&lt;img src=&#34;r_latin_america_bof_v2.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;The R-Latin America BoF button was truly a collaborative effort, with every detail - from bird to branch - created based on ideas and input from R-Latin America community members. Massive thanks to the R-Latin America design contributors (and thank you to &lt;span class=&#34;citation&#34;&gt;@yabellini&lt;/span&gt; for providing this compiled list &amp;amp; text):&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/_lacion_&#34;&gt;Laura Ación&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/Fichulina&#34;&gt;Marcela Alfaro&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/yabellini&#34;&gt;Yanina Bellini&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/July_Benitezs&#34;&gt;Juliana Benitez&lt;/a&gt; (expert ornithologist!), &lt;a href=&#34;https://twitter.com/d_olivaw&#34;&gt;Elio Campitelli&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/PaobCorrales&#34;&gt;Paola Corrales&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/cantoflor_87&#34;&gt;Florencia D’Andrea&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/pacocuak&#34;&gt;Natalia da Silva&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/pmnatural&#34;&gt;Priscilla Minotti&lt;/a&gt;; &lt;a href=&#34;https://twitter.com/rivaquiroga&#34;&gt;Riva Quiroga&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/vilsurr&#34;&gt;Vilma Romero&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/GabySandovalM&#34;&gt;Gabriela Sandoval&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/HeathrTurnr&#34;&gt;Heather Turner&lt;/a&gt;; and the &lt;a href=&#34;https://twitter.com/LatinR_Conf&#34;&gt;LatinR Conference Community&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;These contributors are from Argentina, Chile, Costa Rica, Perú, Uruguay and the UK, and belong to R-Ladies Chapters and R User Groups in these countries. The final picture was chosen for the vote of the broader LatinR Conference Community.&lt;/p&gt;
+&lt;p&gt;Here are some insights into the final design elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The bird species is the chingolo (&lt;em&gt;Zonotrichia capensis&lt;/em&gt;) which was chosen because it seemed to be the bird that is native to many Latin American countries, and is also unique to Latin America. It was one of a number suggested by ornithologist &lt;a href=&#34;@july_benitezs&#34;&gt;Juliana Benitez&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;The chingolo is standing on a tilde (“~”) branch, used in letter eñe (ñ)&lt;/li&gt;
+&lt;li&gt;The color bands on the tilde represent colors on flags for Latin American countries&lt;/li&gt;
+&lt;li&gt;The shape of Latin America is represented on the bird’s chest&lt;/li&gt;
+&lt;li&gt;The bright green background is a nod to the astonishing biodiversity in Latin America&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;africar&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;AfricaR&lt;/h3&gt;
+&lt;center&gt;
+&lt;img src=&#34;africar.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;The AfricaR BoF button was designed with suggestions and feedback from AfricaR community leaders &lt;a href=&#34;https://twitter.com/Shel_Kariuki&#34;&gt;Shelmith Kariuki&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/Denironyx&#34;&gt;Dennis Irorere&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some design elements for the AfricaR button:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The colors (orange, purple and black) are borrowed from (and inspired by) the existing &lt;a href=&#34;https://twitter.com/AfricaRUsers&#34;&gt;Africa R Users&lt;/a&gt; hex design&lt;/li&gt;
+&lt;li&gt;The shape of the continent is in orange (and outlined by data points, with a ggplot-inspired background grid)&lt;/li&gt;
+&lt;li&gt;The ostrich was suggested by Shelmith and Dennis as a representative bird&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-ladies&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;R-Ladies&lt;/h3&gt;
+&lt;center&gt;
+&lt;img src=&#34;rladies_bof.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;The R-Ladies BoF button started with an idea from R-Ladies founder &lt;a href=&#34;https://twitter.com/gdequeiroz&#34;&gt;Gabriela de Quiroz&lt;/a&gt;, who suggested a gull as a nod to both R-Ladies’ beginnings in San Francisco, and to this year’s conference location!&lt;/p&gt;
+&lt;p&gt;With feedback from Gabriela and the R-Ladies leadership team including &lt;a href=&#34;https://twitter.com/_lacion_&#34;&gt;Laura Ación&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/ledell&#34;&gt;Erin LeDell&lt;/a&gt;, and RStudio’s &lt;a href=&#34;https://twitter.com/minebocek&#34;&gt;Mine Çetinkaya-Rundel&lt;/a&gt;, the final design features the following elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A flock (or colony) of gulls, species chosen because it’s common to San Francisco, where R-Ladies began!&lt;/li&gt;
+&lt;li&gt;The gulls are riding an updraft of air together&lt;/li&gt;
+&lt;li&gt;The purple-to-black gradient is inspired by the R-Ladies color scheme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-whole-collection&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;The whole collection&lt;/h3&gt;
+&lt;p&gt;This year, there were 24(!) different Birds of a Feather buttons. When we put them all together, here’s the flock for the 2020 conference (with more planned for next year):&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;all_bof.png&#34; width=&#34;600px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;We hope that everyone can find a bird that they relate to, and we look forward to meeting many of you at future RStudio Conference BoF sessions!&lt;/p&gt;
+&lt;p&gt;So, just one final question: &lt;strong&gt;Which bird(s) are you?&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R for Excel Users Workshop</title>
+      <link>/post/r-for-excel/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/post/r-for-excel/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;tl;dr: all workshop materials are available here: &lt;br&gt;
+GitHub: &lt;a href=&#34;https://github.com/rstudio-conf-2020/r-for-excel&#34; class=&#34;uri&#34;&gt;https://github.com/rstudio-conf-2020/r-for-excel&lt;/a&gt; &lt;br&gt;
+Book: &lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/&#34; class=&#34;uri&#34;&gt;https://rstudio-conf-2020.github.io/r-for-excel/&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://docs.google.com/presentation/d/1w9cVzEsdbyZ6vay4UnoTvTWd9t-AO_x06HoVzgAiSFE/edit?usp=sharing&#34;&gt;Slides&lt;/a&gt; &lt;br&gt;
+Cross posted: &lt;a href=&#34;https://education.rstudio.com/blog&#34; class=&#34;uri&#34;&gt;https://education.rstudio.com/blog&lt;/a&gt; and &lt;a href=&#34;https://www.openscapes.org/blog/&#34; class=&#34;uri&#34;&gt;https://www.openscapes.org/blog/&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/legalcode&#34;&gt;License: CC BY-SA 4.0&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;background&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;We were thrilled to co-teach the R for Excel Users workshop at rstudio::conf(2020)! From early on in our weekly early-morning work sessions and brainstorming hikes, we knew that our R for Excel Users workshop would not be about wholesale translating Excel operations into R. Instead, it would be a more holistic approach to reproducible analyses with R – a friendly introduction to becoming a modern R user.&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;horst-r-excel-disco.png&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+Art by Allison Horst
+&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;p&gt;Our philosophy was always about empowering our attendees to continue learning R after our workshop – and so that they would be excited about it. We wanted to teach not only the skillsets of the modern R user, but also the habits and mindsets for working in a reproducible and collaborative way. Through hands-on experience our attendees would build skills and confidence at the workshop, and through stories and packages from the #rstats community, they would build the mindset to expect what they want to do is possible and have a good start to finding it.&lt;/p&gt;
+&lt;p&gt;Thus, attendees would learn:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;coding with best practices (RStudio/tidyverse)&lt;/li&gt;
+&lt;li&gt;collaborative bookkeeping (Git/GitHub)&lt;/li&gt;
+&lt;li&gt;reporting and publishing (RMarkdown/GitHub)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And they would build the mindset:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;to expect that what they want to do is possible&lt;/li&gt;
+&lt;li&gt;to have confidence they can find it&lt;/li&gt;
+&lt;li&gt;to continue learning with supportive community&lt;/li&gt;
+&lt;li&gt;to enable others&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Focusing on #rstats communities at our workshop was especially important to us because of our audience. These folks were coming to a 2400-person conference all about R – and they did not yet know R! That seems scary! Anything we could do to not only teach them about reproducible workflows but also make the conference easier to navigate for a newcomer we felt was time well spent. Thus, we deliberately focused time on R learning communities that they would see and can get involved in at the conference and afterwards. And, we included a discussion about how Twitter is a legit tool for R, and how to get started.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;teaching-at-rstudioconf&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Teaching at RStudio::conf!&lt;/h2&gt;
+&lt;p&gt;We taught R for Excel Users at RStudio::conf(2020) with our amazing TAs (and fellow Santa Barbara R-Ladies) Jessica Couture and Jamie Montgomery! We jumped into Day 1 of the workshop with 25 optimistic participants from industry, government offices, non-profits, and even several RStudio employees.&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;r-for-excel-instructors.jpg&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+Julie, Jessica, Allison, and Jamie at RStudio::conf(2020)!
+&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;p&gt;Our workshop assumed no previous experience with R or RStudio. After setting the tone and expectations of the workshop with how R is like the Force from Star Wars, we spent the first two sessions on meeting, exploring, and setting up our tools, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/rstudio.html&#34;&gt;Meeting the RStudio IDE, Hello R Markdown!, Packages, Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/github.html&#34;&gt;Working between GitHub and R projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With Jessica and Jamie’s awesome troubleshooting, we were all off and running at the end of Session 2 with RStudio, R Markdown, and GitHub and installed, running, and somewhat familiar. Of course after getting set up with our software, we had work to do! We spent the rest of the day:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/ggplot2.html&#34;&gt;Making ggplot graphs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/pivot-tables.html&#34;&gt;pivot tables in R with group_by() %&amp;gt;% summarize()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our fearless attendees returned on Day 2, with a chorus of “Alligator mouth dash” (&lt;code&gt;&amp;lt;-&lt;/code&gt;) in response to Alison’s question “How do we assign an object in R?”. We immediately jumped into coding by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/tidying.html&#34;&gt;Reshaping, separating and uniting things with tidyr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/filter-join.html&#34;&gt;Filtering and joining data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/collaborating.html&#34;&gt;Getting help, #rstats communities, and collaborating/fixing merge conflicts in GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-conf-2020.github.io/r-for-excel/synthesis.html&#34;&gt;Synthesis of the skills and tools we’d learned&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our final session was revisiting and practicing all that we had learned throughout the workshop while participants also collaborated on RMarkdown files with each other through GitHub.&lt;/p&gt;
+&lt;p&gt;The vibe throughout the workshop was fun and lighthearted, which is exactly what we were hoping for. In addition to “Alligator mouth dash”, my favorite moment in the whole workshop was an audible whisper (“very nice!”) from someone using &lt;code&gt;separate()&lt;/code&gt; for the first time. A close second was the cheers for &lt;code&gt;janitor::clean_names()&lt;/code&gt; and Allison’s responding, “Yes, this is worth cheering over!”. Our attendees were hard-working folks with a great attitude and sense of humor, who are now equipped for more exciting steps in their R journey.&lt;/p&gt;
+&lt;center&gt;
+&lt;a href = &#34;https://twitter.com/juliesquid/status/1222325096699686912&#34;&gt;
+&lt;img src=&#34;tweet-juliesquid-r-for-excel.png&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+&lt;div id=&#34;whats-next&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What’s next&lt;/h2&gt;
+&lt;p&gt;We loved developing and teaching R for Excel Users, and hope to do it again. Our course materials evolved quite a bit throughout months of development, and were hugely helped by a pilot workshop we ran at UC Santa Barbara in early December. Even so, there are little things we would like to iron out and improve upon for next time. And we will also update the Book with images from the Slides so that the Book is completely self-contained and the Slides are a bonus, rather than a necessity.&lt;/p&gt;
+&lt;p&gt;We also got feedback that we should change the name of the course because while it has some framing from Excel, it is certainly not limited to Excel Users. This seems like a good idea. When we were first talking to RStudio’s Alison Hill about the workshop, we discussed how it could be somewhat of a precursor to Jenny Bryan and Jim Hester’s What They Forgot to Teach You About R – ours being What You Should Know When You Learn R. Jenny and Jim’s have a great acronym, WTF, so I have been thinking about names. I learned from Jenny that WTF was a welcome byproduct that came after they came up with the workshop name, but I have to approach it as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Backronym&#34;&gt;backronym&lt;/a&gt;. I’ve had many terrible ideas, but! Through cocktail chats at the conference with Charlotte Wickham and Hannah Frick, we landed on TLDR being best. I love Charlotte’s suggestion of Take a Leap and Dive into R or my less-great Time to Learn Data analysis in R. This is an ongoing pursuit, and suggestions are very welcomed :).&lt;/p&gt;
+&lt;img src=&#34;r-for-excel-monsters.jpg&#34; width=&#34;500px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+photo by Brunel Johnson with art by Allison Horst
+&lt;/figcaption&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RStudio Artist-in-Residence 2019/2020!</title>
+      <link>/post/2019-11-19-rstudio-artist-in-residence/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/post/2019-11-19-rstudio-artist-in-residence/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Since I started drawing R- and stats-related illustrations for my students in 2018, I have been overwhelmed by the reception from the #rstats community on twitter.&lt;/p&gt;
+&lt;p&gt;I am extremely excited to share that as of October 2019, I am &lt;a href=&#34;https://rstudio.com/&#34;&gt;RStudio&lt;/a&gt;’s first Artist-in-Residence!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured_horst_air.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;You can read more about my motivation and goals for the position on the &lt;a href=&#34;https://blog.rstudio.com/2019/11/18/artist-in-residence/&#34;&gt;RStudio blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I look forward to sharing a whole bunch more art with you over the next year!&lt;/p&gt;
+&lt;p&gt;Allison&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Openscapes Champions Case Study: Horst Lab</title>
+      <link>/post/horst-lab/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      <guid>/post/horst-lab/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;em&gt;Note: I, with my teaching assistant extraordinaire Jessica Couture, participated in the 10-week Openscapes Mentorship Program led by Dr. Julia Lowndes in 2019. Here’s a wrap-up we wrote of some of our efforts and progress through Openscapes!&lt;/em&gt;&lt;/p&gt;
+&lt;div id=&#34;champions-case-study-horst-lab&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Champions Case Study: Horst Lab&lt;/h1&gt;
+&lt;div id=&#34;crossposted-at-openscapes.org&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Crossposted at &lt;a href=&#34;https://www.openscapes.org/blog/&#34;&gt;openscapes.org&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;We have just concluded our inaugural cohort of Openscapes Champions. While sad to conclude, all Champion labs have so many exciting accomplishments and so much momentum for open data science, and it is truly just the beginning. Here we are posting individual case studies of accomplishments from Champions labs.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&#34;https://allisonhorst.github.io/&#34;&gt;&lt;strong&gt;The Horst Lab&lt;/strong&gt;&lt;/a&gt; teaches stats &amp;amp; data analysis to environmental science grad students at the Bren School for Environmental Science and Management at the University of California at Santa Barbara. Participating in Openscapes is lecturer &lt;a href=&#34;https://www.bren.ucsb.edu/people/Faculty/allison_horst.htm&#34;&gt;Dr. Allison Horst&lt;/a&gt; and PhD candidate and lead teaching assistant &lt;a href=&#34;https://www.bren.ucsb.edu/research/Jessica_Couture1.htm&#34;&gt;Jessica Couture&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Allison: My favorite part of teaching is seeing initially (data) intimidated students grow throughout the quarter(s) to become confident and curious R-users who can responsibly wrangle and analyze their own real-world data, then successfully communicate results.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Jessica: I study marine aquaculture and sustainable food systems and incorporate open science practices in my work. I love teaching data and open science methods with Allison because it is great to be able to lower the barriers to these practices and move more scientists towards open and collaborative work.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a&gt;&lt;img src=&#34;horst-tidyverse-nebula.jpg&#34; width=&#34;350px&#34;&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+Tidyverse nebula by Allison Horst
+&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://docs.google.com/document/d/17CxyclpaG74E5U5P41asybkOAeruS1RxRL6kQGXLw7Y/edit&#34;&gt;Horst Lab Case Study&lt;/a&gt; shares our accomplishments for streamlining how we teach two courses. The introductory course, ESM 206, is ~100 graduate students from Bren and other departments, and additionally the optional advanced course, ESM 244, reached enrollment of 68 students from departments across campus in 2019! In both courses, we emphasize open practices and tools (R, RStudio, GitHub) for reproducibility and collaboration, along with data analysis concepts and methods. As a preview, we learned that:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“being a champion for open data science doesn’t always mean being an expert in R or GitHub (or data science more generally). It means that I can be a champion by helping other people (like my students!) realize the value of open, reproducible, collaborative data analysis and give them the confidence and curiosity to learn useful tools so they can do it on their own.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Our key accomplishments are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Converted ESM 206 / 244 lectures to Google Slides for sharing&lt;/li&gt;
+&lt;li&gt;Collected all ESM 206 / 244 lab materials, now each an .Rproj, shared on GitHub!&lt;/li&gt;
+&lt;li&gt;Added GitHub to course goals for MESM students&lt;/li&gt;
+&lt;li&gt;Established &lt;a href=&#34;https://www.openscapes.org/blog/2019/05/02/tidy-tuesday-coding-club/&#34;&gt;weekly #tidytuesday hacky hours&lt;/a&gt; with Gracie White&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openscapes.org/blog/2019/01/15/personify-code/&#34;&gt;Engaged w/ online #rstats community&lt;/a&gt;, learned a TON (esp. about useful functions, dataviz, and &lt;a href=&#34;https://twitter.com/allison_horst/status/1102447015248637953&#34;&gt;how awesome people are in the R community&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Through twitter, &lt;a href=&#34;https://twitter.com/allison_horst/status/1069288639379603456&#34;&gt;connected with a lot of people in the R community&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Learned to deal with more &lt;a href=&#34;https://twitter.com/allison_horst/status/1121501193358864385&#34;&gt;Git merge conflicts in RStudio&lt;/a&gt; and in the command line (excited to teach this in ESM 206 next year!)&lt;/li&gt;
+&lt;li&gt;Merged first pull request&lt;/li&gt;
+&lt;li&gt;So many great &lt;a href=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQqWV6qFUv6WOztKqj52gUfvVlYc5Emw6Z-YzoM5fr9uOHRDLTDC625pdKVe5PwhlRmZlklNB7Lulq4/pubhtml&#34;&gt;efficiency/keyboard shortcut tips&lt;/a&gt;! I feel so cool when I use them!&lt;/li&gt;
+&lt;li&gt;Almost done making &lt;a href=&#34;www.allisonhorst.github.io&#34;&gt;our teaching website&lt;/a&gt;, PSYCHED&lt;/li&gt;
+&lt;li&gt;Learned a little about css &amp;amp; html (by fumbling)&lt;/li&gt;
+&lt;li&gt;Created a course code of conduct to promote positivity and inclusivity in ESM 206 / 244&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Congratulations Allison, Jessica, and all future TAs and students that are lucky enough to take your classes!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Relevant posts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openscapes.org/blog/2019/01/15/personify-code/&#34;&gt;Personifying code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openscapes.org/blog/2019/03/27/champions-incorporate-open-science/&#34;&gt;Openscapes Champions incorporate open practices in their science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openscapes.org/blog/2019/04/08/summit-reflections1/&#34;&gt;Openscapes summit reflections — becoming champions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openscapes.org/blog/2019/04/25/summit-reflections2/&#34;&gt;Openscapes summit reflections 2 — Changing the way we do science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openscapes.org/blog/2019/05/02/tidy-tuesday-coding-club/&#34;&gt;Starting our #tidytuesday hacky hours&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Starting our #tidytuesday hacky hours</title>
+      <link>/post/tidytuesday/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      <guid>/post/tidytuesday/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;starting-our-tidytuesday-hacky-hours&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Starting our #tidytuesday hacky hours&lt;/h1&gt;
+&lt;div id=&#34;crossposted-on-the-openscapes-blog&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Crossposted on the &lt;a href=&#34;https://www.openscapes.org/blog/&#34;&gt;Openscapes blog&lt;/a&gt;!&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This is our first community blog post by Openscapes Champion Allison Horst!&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Hi everyone! I’m Allison. I teach data analysis, statistics and presentation skills to graduate students at the Bren School of Environmental Science and Management at UC Santa Barbara. I’m also an Openscapes Champion.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;http://www.openscapes.org&#34;&gt;Openscapes&lt;/a&gt; we discuss the need to create supportive spaces, like &lt;a href=&#34;https://www.openscapes.org/blog/2018/11/16/how-to-start-a-coding-club/&#34;&gt;coding clubs&lt;/a&gt;, for useRs to practice and grow their coding skills.&lt;/p&gt;
+&lt;p&gt;With Bren masters student Gracie White (&lt;span class=&#34;citation&#34;&gt;[@GracieGW]&lt;/span&gt;(&lt;a href=&#34;https://twitter.com/GracieGW&#34; class=&#34;uri&#34;&gt;https://twitter.com/GracieGW&lt;/a&gt;)), I’ve recently started a weekly hacky hour / coding club in Santa Barbara. Here, I’ll share how &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday&#34;&gt;#tidytuesday&lt;/a&gt; has reduced our workload and planning, how we started and organize our events, and a few things we’ve learned so far.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a href=&#34;https://twitter.com/GracieGW/status/1123407504812068865&#34;&gt;
+&lt;img src=&#34;tidy_tuesday_5gracie.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div id=&#34;tidytuesday-offers-a-no-stress-low-effort-coding-club-option-for-organizers&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;#tidytuesday offers a no-stress, low-effort coding club option for organizers&lt;/h4&gt;
+&lt;p&gt;Coming off of two quarters of data analysis courses, a number of motivated students were looking for a stress-free way to maintain and grow their coding skills. Recognizing the momentum, Gracie reached out requesting that we start a coding club this quarter using RStudio’s #tidytuesday initiative as an impetus and opportunity for weekly social coding events.&lt;/p&gt;
+&lt;p&gt;So, what is #tidytuesday? As described by Thomas Mock (&lt;span class=&#34;citation&#34;&gt;[@thomas_mock]&lt;/span&gt;(&lt;a href=&#34;https://twitter.com/thomas_mock&#34; class=&#34;uri&#34;&gt;https://twitter.com/thomas_mock&lt;/a&gt;)) of &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;RStudio&lt;/a&gt; and the &lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt; (#R4DS) online learning community:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Every week we post a raw dataset, a chart or article related to that dataset, and ask you to explore the data…The goal of TidyTuesday is to apply your R skills, get feedback, explore other’s work, and connect with the greater #RStats community!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Why is that so great?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Because it means that the groundwork for a short, productive session of data wrangling practice already exists, with very little effort on our end.&lt;/strong&gt; Manageable #tidytuesday datasets are shared each week with background information, citations, and code to read them directly into R.&lt;/p&gt;
+&lt;p&gt;Attendees are invited to bring any other code-related projects they’re working on, but having the #tidytuesday option means that there’s something for everyone to work on that week, and we don’t have to spend any energy to make it available or accessible. Another bonus: many #tidytuesday participants share their code and visualizations publicly, so anyone can explore examples to learn from what others have done!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a href=&#34;https://twitter.com/GracieGW/status/1120876956482805761&#34;&gt;
+&lt;img src=&#34;tidy_tuesday3_tweet.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;how-we-started-our-coding-club.&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;How we started our coding club.&lt;/h4&gt;
+&lt;div id=&#34;step-1.-we-sent-out-a-welcoming-email-with-important-information.&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;&lt;em&gt;Step 1. We sent out a welcoming email with important information.&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;Once we knew we’d focus our sessions around #tidytuesday datasets, we welcomed people to join us. In our first email, we wanted to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Welcome people and share our enthusiasm&lt;/li&gt;
+&lt;li&gt;Include the date, time and location of our first event&lt;/li&gt;
+&lt;li&gt;Introduce the #tidytuesday initiative&lt;/li&gt;
+&lt;li&gt;Ask interested people to add their name to our Google sign-up sheet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We sent out the following email to Bren students and other R-using friends in the UCSB community:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;I’m very excited to share that we’re starting a Tidy Tuesday Coding Club next quarter. Our hope is to make this a fun, no-stress, and supportive weekly group where we can all work on our own coding projects, discuss challenges, share victories (and grievances), learn about cool new packages and functions, and keep the rust off of our R coding skills!&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Our first coding club will be DATE, TIME, at LOCATION. We plan to schedule a place each Tuesday (e.g. coffee shops, breweries, restaurants, etc.) where we can meet in the afternoon/evening and code together. You can bring your own code/data you’re working on, or participate in the “R for Data Science” online community’s #TidyTuesday initiative, summarized here:&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“Join the R4DS online learning community in the weekly #TidyTuesday event! Every week we post a raw dataset, a chart or article related to that dataset, and ask you to explore the data. While the dataset will be “tamed”, it will not always be tidy! As such you might need to apply various R for Data Science techniques to wrangle the data into a true tidy format. The goal of TidyTuesday is to apply your R skills, get feedback, explore other’s work, and connect with the greater #RStats community! As such we encourage everyone of all skills to participate!&#34;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;We’ll be participating in #TidyTuesday each week, and we hope you’ll join us for some fun social coding (yes, those can coexist). Sign-up HERE to be included on future emails about the dates/times/locations of our Tidy Tuesday Coding Club. We look forward to seeing you there!&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-2.-we-showed-up&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;&lt;em&gt;Step 2. We showed up!&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;We held our first event at a cool little brewery close to campus that satisfied some requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Easy to bike or bus from campus&lt;/li&gt;
+&lt;li&gt;Plenty of seating and tables for computers&lt;/li&gt;
+&lt;li&gt;Free and reliable wifi&lt;/li&gt;
+&lt;li&gt;Food &amp;amp; refreshments available (at venue or very close by)&lt;/li&gt;
+&lt;li&gt;No loud events happening (e.g. trivia night, live bands, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;…and ~17 coders came out to join us!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a&gt;&lt;img src=&#34;tidy_tuesday_2b.png&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;There was a pretty even mix of attendees working on their own projects (research, assignments, etc.) and those using #tidytuesday to practice wrangling and visualization.&lt;/p&gt;
+&lt;p&gt;One person remembered how (and why!) to work in R projects. Several of us re-learned a few things about the lubridate package for working with dates and times. For a few, even opening RStudio and reading in data after a long hiatus felt victorious.&lt;/p&gt;
+&lt;p&gt;I was thrilled to be there with so many people who felt comfortable working alongside other R-users at all different levels. It was a fun, relaxed evening of coding together. At subsequent events we’ve had between 12 and 18 people (and at least one dog), which is perfect for the locations we’ve met so far, and new interested members continue adding their names to our sign-up sheet.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-3.-we-follow-up-between-events&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;&lt;em&gt;Step 3. We follow up between events&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;The Wednesday or Thursday following each event, I send an email to the group with the time and location of our next meeting. I also include some code examples inspired by discussions or data wrangling efforts during that week’s coding club (and am adding them to a GitHub repo).&lt;/p&gt;
+&lt;p&gt;Monday or Tuesday after the new #tidytuesday datasets are posted, Gracie sends an email welcoming people to join us that week with a short summary of that week’s data topic and code to read in the datasets directly.&lt;/p&gt;
+&lt;p&gt;So at this point, our effort as organizers is pretty minimal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Monday/Tuesday: Gracie sends reminder email + code to get #tidytuesday data&lt;/li&gt;
+&lt;li&gt;Tuesday: We attend our coding club (2 hours/wk)&lt;/li&gt;
+&lt;li&gt;Wednesday: I post my code examples on GitHub (takes ~30 minutes)&lt;/li&gt;
+&lt;li&gt;Wednesday/Thursday: I send a follow-up with next location + links to code examples&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For now, that’s our low-effort, big-reward strategy for starting a social coding group!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a&gt;&lt;img src=&#34;featured_tidy_tuesday_3.jpg&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;some-early-lessons-weve-learned&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Some early lessons we’ve learned&lt;/h4&gt;
+&lt;p&gt;Some lessons we’ve learned very early on in our little coding club’s existence:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;You don’t need a perfect plan to start a coding club.&lt;/strong&gt; I’d been so worried about details that I delayed starting a coding club. I shouldn’t have. In our first few weeks I’ve learned that attendees are happy to participate in less structured, low-key social coding events - and that I don’t need to feel like a host every week.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Use materials that others have already created to minimize planning effort.&lt;/strong&gt; The goal of our club is to get and keep everyone coding frequently so that we can all maintain and grow our R-skills. For that purpose, using the existing #tidytuesday infrastructure makes a lot of sense.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Wifi is really important.&lt;/strong&gt; As we learned last week, our sessions are way less productive if we can’t easily and quickly search examples, twitter, blogs, documentation, forums, etc. We’ve had to cross a couple of places off our locations list due to unreliable wifi.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;You don’t need an expert in attendance, but it helps to have some people who can help with issues when people get stuck.&lt;/strong&gt; In our group, most people have had 1 - 2 recent courses in R and are relatively independent when it comes to the basics. Still, it’s useful to have one or two people there who feel comfortable troubleshooting or can send people in the right direction.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Know your audience, and choose your format accordingly.&lt;/strong&gt; Our “get together and code socially” format works for our group because we have a critical mass of semi-independent R-users who are able to work and learn at a level that makes sense for #tidytuesdays (basic data wrangling + visualization with the tidyverse). If that isn’t the case, another format (e.g. a coding club where attendees work through tutorials together, or where an instructor leads a short workshop on a different topic like in &lt;a href=&#34;https://eco-data-science.github.io/&#34;&gt;eco-data-science&lt;/a&gt;) might be more productive. Figure out the &lt;strong&gt;goals&lt;/strong&gt; of your coding club first, try to anticipate the &lt;strong&gt;level&lt;/strong&gt; of most attendees, and &lt;strong&gt;choose a format that will set them up to meet those goals.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We’re really excited about our young coding club so far, and will share what we learn as it continues to grow!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a&gt;&lt;img src=&#34;/img/blog/tidy_tuesday_4.jpg&#34; width=&#34;400px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sharing (R lab) keys for success</title>
+      <link>/post/share-keys/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/post/share-keys/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I just finished my sixth year of teaching intro stats and data analysis in R to environmental studies grad students. For the first five, I convinced myself that I shouldn’t share my instructor code keys with students before our weekly #rstats labs.&lt;/p&gt;
+&lt;p&gt;Here are a couple of my commonly regurgitated excuses, based on absolutely nothing:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“If I share the key beforehand, no one will show up to labs!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“If I share the key beforehand, people will just run the key and not actively code along, so they won’t learn as much!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This year, a student was struggling to keep up in our computer labs and asked to get the instructor keys beforehand. Labs progress quickly, and they wanted to explore the the key to identify challenging/confusing chunks and prepare for them in advance.&lt;/p&gt;
+&lt;p&gt;First I was like “eeeehhhhh,” then I was like “pssshh fine I’ll email it to you but please don’t share it with anybody else because [see excuses above],” then eventually I was like “this is ridiculous let’s see what happens if I share the instructor keys beforehand with everyone in the class.”&lt;/p&gt;
+&lt;p&gt;Here is the nightmare that ensued:&lt;/p&gt;
+&lt;div id=&#34;everyone-just-still-came-to-labs.&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1. Everyone just still came to labs.&lt;/h2&gt;
+&lt;p&gt;Seriously, attrition rate = zero.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;everyone-was-still-coding-in-labs.&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. Everyone was still coding in labs.&lt;/h2&gt;
+&lt;p&gt;My sense was that most students didn’t even look at the key despite knowing it was posted (also fine). But in each lab, several students had printed out the key as an additional resource to help them along. In short: self-motivated students who benefitted from exploring lab keys beforehand &lt;em&gt;could&lt;/em&gt;, and the rest just continued showing up and following along without it like they always had.&lt;/p&gt;
+&lt;p&gt;This year, I actually found &lt;strong&gt;no down side&lt;/strong&gt; to posting my instructor code keys for students and TAs to see in advance. I’m sure there are anecdotal horror stories of shared keys … FINISH THIS&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;in-fact-there-are-clear-benefits.-like&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;In fact, there are clear benefits. Like:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If students want to spend &lt;strong&gt;more&lt;/strong&gt; time looking over code before labs, why in the world would I ever &lt;strong&gt;not&lt;/strong&gt; encourage their interest and effort?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When students have to miss labs (illness, personal days, conferences, etc.) they know that the materials are all available without request - which means less stress and emailing for everyone.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For anyone who &lt;em&gt;does&lt;/em&gt; find themselves falling behind, there’s always a key available for them to figure out where they got lost or went awry. Another small way to reduce student stress.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It’s actually &lt;strong&gt;less&lt;/strong&gt; work for me. I can just push all materials to GitHub (data, lab templates, keys), without feeling like I have to hide pieces in different repos or folders or whatever. One (openly shared) Rproj to rule them all.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-does-this-require&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What DOES this require?&lt;/h2&gt;
+&lt;p&gt;Believing in students.&lt;/p&gt;
+&lt;p&gt;When it comes right down to it, I wasn’t sharing instructor keys because I didn’t give my students the credit they deserved. Which was really lame of me, because like 99.9% of the time they’ve only ever been &lt;em&gt;more&lt;/em&gt; committed and motivated than I expect them to be.&lt;/p&gt;
+&lt;p&gt;Anyway, the students asking to review the lab materials beforehand are probably &lt;strong&gt;not&lt;/strong&gt; the ones trying to weasel their way out of course effort.&lt;/p&gt;
+&lt;p&gt;I’ll continue posting all #rstats lab keys (heck, you can even see them: &lt;a href=&#34;https://github.com/allisonhorst/esm-206-2018&#34;&gt;ESM 206&lt;/a&gt; / &lt;a href=&#34;https://github.com/allisonhorst/esm-244-2019&#34;&gt;ESM 244&lt;/a&gt;), with gratitude to students who’ve repeatedly proven my reservations wrong.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>There&#39;s value in trying your [dataviz] worst</title>
+      <link>/post/do-your-worst/</link>
+      <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/post/do-your-worst/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In the past I’ve always asked students to create their &lt;em&gt;best possible graphs&lt;/em&gt; in &lt;code&gt;ggplot2&lt;/code&gt; to practice creating clear, engaging data visualizations. Recently, I’ve realized value in adding a few early exercises that encourage students to make their &lt;strong&gt;worst&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why is it good to make ggplot2 graphs so (intentionally) bad?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here are four ways that creating a purposefully disgusting graph promotes learning and exploration in &lt;code&gt;ggplot2&lt;/code&gt;:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Making &lt;strong&gt;the worst&lt;/strong&gt; graph encourages creativity while eliminating the stress of producing a perfect final visualization (unless, of course, it’s perfectly hideous)&lt;/li&gt;
+&lt;li&gt;Making &lt;strong&gt;the worst&lt;/strong&gt; graph requires extensive customization and code&lt;/li&gt;
+&lt;li&gt;Making &lt;strong&gt;the worst&lt;/strong&gt; graph means critically thinking about and identifying contributors to “bad” graphs&lt;/li&gt;
+&lt;li&gt;Making &lt;strong&gt;the worst&lt;/strong&gt; graph is surprisingly fun&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I was recently inspired to try my absolute dataviz worst by a &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday&#34;&gt;#tidytuesday&lt;/a&gt; prompt using data from &lt;a href=&#34;https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368&#34;&gt;Sarah Leo’s efforts to improve imperfect graphs in The Economist&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Instead of trying to recreate or further improve on their graphs, I decided to use my powers and energy for a much different purpose. A darker and more anarchistic purpose…&lt;/p&gt;
+&lt;p&gt;Behold, my worst!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured_cowplot_test.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The undiscerning eye might think “these graphs are abominations and there was clearly no effort put into them.”&lt;/p&gt;
+&lt;p&gt;Wrong.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It’s a long dive from ggplot2 defaults into the depths of truly terrible DataViz, and it takes creativity and effort to keep sinking&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are just a few things I learned or re-learned during my nosedive:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arrange multiple graphs with &lt;a href=&#34;https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html&#34;&gt;&lt;strong&gt;cow&lt;/strong&gt;plot&lt;/a&gt; by &lt;a href=&#34;https://github.com/clauswilke&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;laus &lt;strong&gt;O&lt;/strong&gt;. &lt;strong&gt;W&lt;/strong&gt;ilke&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add figure labels and subtext&lt;/li&gt;
+&lt;li&gt;Expand figure margins to let axis labels breathe&lt;/li&gt;
+&lt;li&gt;Update fonts and colors in all graph components&lt;/li&gt;
+&lt;li&gt;Convert to polar coordinates&lt;/li&gt;
+&lt;li&gt;Customizing date formatting on axes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/allisonhorst/allison-tidy-tuesdays/tree/master/2019-%2004-16&#34;&gt;(&lt;em&gt;click here for my complete worst dataviz code&lt;/em&gt;)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Through the process of trying my worst I learned some new customization skills, created useful reference code for future ggplot2 efforts, and had fun – it felt oddly liberating to be deliberately and creatively awful.&lt;/p&gt;
+&lt;p&gt;From now on, I’ll be adding a few early &lt;code&gt;ggplot2&lt;/code&gt; activities requiring students to do their absolute dataviz worst. There’s plenty of room at the bottom, and we can learn a lot &lt;em&gt;and&lt;/em&gt; have fun on our way down.&lt;/p&gt;
+&lt;div id=&#34;data-visualization-resources-in-the-other-direction&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Data visualization resources (in the other direction):&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://serialmentor.com/dataviz/&#34;&gt;Fundamentals of Data Visualization&lt;/a&gt; by Claus Wilke&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://kieranhealy.org/publications/dataviz/&#34;&gt;Data Visualization: a Practical Introduction&lt;/a&gt; by Kieran Healy&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

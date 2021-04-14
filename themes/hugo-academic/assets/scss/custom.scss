@@ -1,0 +1,17 @@
+// Override this file to add your own SCSS styling.
+ul.ul-interests {
+    list-style: none; }
+  
+  ul.ul-interests li {
+    position: relative;
+    font-size: 0.9rem;
+    padding: 0 15px 4px 3px; }
+  
+  ul.ul-interests li .link_description p {
+    margin: 0;
+    font-size: 0.9rem; }
+  
+  ul.ul-interests li .link_description p.desc {
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.6); }
+  

@@ -1,0 +1,18 @@
+# Theme metadata
+name = "allison_theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#4466B0"
+
+# Menu
+menu_primary = "#F5E4BC"
+menu_text = "#333333"
+menu_text_active = "#4466B0"
+menu_title = "#333333"
+
+# Home sections
+home_section_odd = "#FFFFFF"
+home_section_even = "#FDF7E9"
