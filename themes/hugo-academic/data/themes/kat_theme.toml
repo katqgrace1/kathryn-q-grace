@@ -1,18 +1,18 @@
 # Theme metadata
-name = "allison_theme"
+name = "kat_theme"
 
 # Is theme light or dark?
 light = true
 
 # Primary
-primary = "#4466B0"
+primary = "#3a9c9a"
 
 # Menu
-menu_primary = "#F5E4BC"
+menu_primary = "#fcd2d4"
 menu_text = "#333333"
-menu_text_active = "#4466B0"
-menu_title = "#333333"
+menu_text_active = "#3a9c9a"
+menu_title = "#333333" 
 
 # Home sections
 home_section_odd = "#FFFFFF"
-home_section_even = "#FDF7E9"
+home_section_even = "#ffedee"
