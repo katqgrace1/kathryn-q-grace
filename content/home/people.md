@@ -16,8 +16,8 @@ subtitle = ""
   user_groups = [
     "Postdocs",
     "Graduate Students",
-    "Undergraduate Students",
-    "Alumni"
+    "Other",
+    "Undergraduate Students"
     ]
 
 [design]

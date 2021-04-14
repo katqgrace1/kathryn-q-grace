@@ -1,7 +1,7 @@
 ---
 name: Andrew Verdin
-role: Postdoctoral Associate
+role: Research Scientist
 user_groups:
-- Postdocs
+- Other
 external_link: https://andrew-verdin.dash.umn.edu/about/
 ---

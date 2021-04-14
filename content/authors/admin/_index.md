@@ -48,6 +48,7 @@ social:
   link: https://orcid.org/0000-0003-4822-6183
 - icon: github
   icon_pack: fab
+  link: https://github.com/katqgrace1
 superuser: true
 user_groups:
 - Researchers
