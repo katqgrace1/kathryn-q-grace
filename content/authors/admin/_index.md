@@ -31,7 +31,7 @@ interests:
   - alias: Gender & Disaster Network
     url: https://www.gdnonline.org/
     description: GDNonline
-name: Kathryn L Grace
+name: Kathryn Q Grace
 organizations:
 - name: University of Minnesota, Twin Cities
   url: "https://cla.umn.edu/geography"
