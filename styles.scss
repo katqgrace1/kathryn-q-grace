@@ -1,0 +1,117 @@
+/*-- scss:defaults --*/
+$primary: #FBD2D4;
+$link-color: #399C9A;
+$navbar-fg: #5A5A5A;
+$navbar-hl: $link-color;
+$body-color:  #5A5A5A;
+
+/*-- scss:rules --*/
+body{
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+cite {
+  font-style: normal;
+}
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.about-link {
+  border: none !important;
+}
+
+.about-contents {
+  border-left: 0 !important;
+  display: flex;
+  align-items: center;
+}
+
+.lead {
+  font-size: 1rem;
+}
+
+.inst {
+  font-size: 0.75rem;
+  color: $body-color;
+}
+
+#proj {
+  display: flex; 
+  align-items: center;
+}
+
+#person {
+  width: 20%;
+  text-align: center;
+  padding: 15px;
+  color: $link-color;
+  font-weight: 300;
+}
+
+.person_img {
+  width: 80%; 
+  aspect-ratio: 1 / 1;
+  object-fit: cover; 
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.person_txt {
+  margin: 1rem;
+}
+
+#people .cell-output-display {
+  overflow-x: hidden !important;
+  display:flex !important; 
+  flex-wrap: wrap !important; 
+  justify-content: center !important;
+}
+
+div.quarto-post {
+  border-bottom: 0;
+}
+
+#stripe {
+  position: relative; /* for child pseudo-element */
+  z-index: 0;
+  background-color: #FFEDEE;
+  margin-top: 4rem;
+  margin-left: -500%;
+  margin-right: -500%;
+  margin-bottom: 4rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 500% !important;
+  padding-right: 500% !important;
+}
+
+/* Media for mobile width */
+@media(max-width: 481px) {
+  div.quarto-about-trestles .about-entity .about-links {
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 1em
+  }
+  
+  #people, #proj {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #person {
+    width: 80% !important;
+    text-align: center;
+    padding: 15px;
+    color: $link-color;
+    font-weight: 300;
+  }
+}
+

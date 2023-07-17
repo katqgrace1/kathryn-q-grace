@@ -1,0 +1,30 @@
+---
+title: "Publications"
+---
+
+```{r, include=FALSE}
+library(tidyverse)
+library(RefManageR)
+library(here)
+RefManageR::BibOptions(bib.style = "authoryear", check.entries = FALSE)
+refs <- RefManageR::ReadBib("data/publications.bib")
+```
+
+```{r, warning=FALSE}
+refs %>% 
+  as_tibble() %>% 
+  filter(category == "refereed") %>% 
+  mutate(
+    month = as.integer(month),
+    year = as.integer(year)
+  ) %>% 
+  arrange(desc(year), desc(month)) %>% 
+  select(-any_of(c("pages", "language", "keywords", "location"))) %>% 
+  pmap_chr(function(...){
+    tibble(...) %>% 
+      as.BibEntry() %>% 
+      format(style = "html") 
+  }) %>%
+  str_remove_all("URL: |In: ") %>% 
+  htmltools::HTML()
+```

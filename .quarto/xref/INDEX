@@ -1,0 +1,36 @@
+{
+  "index.qmd": {
+    "index.html": "b321804d"
+  },
+  "about.qmd": {
+    "about.html": "4a3baf67"
+  },
+  "teaching.qmd": {
+    "teaching.html": "892683a0"
+  },
+  "publications.qmd": {
+    "publications.html": "0569dfc7"
+  },
+  "projects/pma.qmd": {
+    "pma.html": "ff829e32"
+  },
+  "projects/meriam.qmd": {
+    "meriam.html": "1f5c9844"
+  },
+  "projects/chc.qmd": {
+    "chc.html": "f43e473f"
+  },
+  "data/cv.Rmd": {
+    "cv.html": "d9de668a"
+  },
+  "data/cv.rmd": {
+    "cv.html": "07cb0e13"
+  },
+  "data/test .qmd": {
+    "test-.tex": "a9590efd",
+    "test .html": "d6959849"
+  },
+  "print_cv.Rmd": {
+    "print_cv.html": "61afeb43"
+  }
+}

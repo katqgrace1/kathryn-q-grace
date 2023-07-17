@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+page-layout: full
+execute:
+  echo: false
+  eval: true
+website:
+  title: "Kathryn Q Grace"
+  favicon: images/favicon.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - teaching.qmd
+      - publications.qmd
+      - href: cv.pdf
+        text: CV
+resources: cv.pdf
+format:
+  html:
+    theme: 
+      - pulse
+      - styles.scss
+    toc: true
+
+

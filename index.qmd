@@ -1,0 +1,149 @@
+---
+title: Kathryn Q Grace
+subtitle: Associate Professor <br> Geography, Environment and Society <br> University of Minnesota 
+toc: false 
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: round
+  image-width: 13em
+  image: images/avatar.jpg
+  links:
+    - text: "{{< fa regular envelope size=2x >}}"
+      href: mailto:klgrace@umn.edu 
+    - text: "{{< fa brands google size=2x >}}" 
+      href: https://scholar.google.com/citations?hl=en&user=qgKdJWMAAAAJ
+    - text: "{{< fa brands orcid size=2x >}}"
+      href: https://orcid.org/0000-0003-4822-6183
+    - text: "{{< fa brands github size=2x >}}"
+      href: https://github.com/katqgrace1
+---
+
+```{r, include=FALSE}
+library(htmltools)
+library(tidyverse)
+```
+
+:::{#hero-heading}
+Welcome to my corner of the internet. Basic information about my research, publications and my educational background can be found on this website. 
+
+Please feel free to [contact me](mailto:klgrace@umn.edu) to discuss anything – research, parenting, academics, teaching, hot chocolate or chihuahuas – in more detail.
+
+::::{class="lead" style="margin-top: 2rem;"}
+**PhD Geography, 2008** <p class="inst">University of California, Santa Barbara</p>
+**MA Statistics, 2006** <p class="inst">University of California, Santa Barbara</p>
+**MSPH Biostatistics, 2004** <p class="inst">Tulane University School of Public Health</p>
+**BA Theoretical Mathematics, 2002** <p class="inst">University of California, Berkeley</p>
+
+::::
+::: 
+
+
+::: {#stripe}
+# Featured Publications  
+[*See all publications*](publications.html)
+
+:::: {#proj}
+<div>
+### [Global urban population exposure to extreme heat](https://www.pnas.org/doi/10.1073/pnas.2024792118)
+
+Tuholske, Cascade, Kelly Caylor, Chris Funk, Andrew Verdin, Stuart Sweeney, **Kathryn Grace**, Pete Peterson, and Tom Evans (2021)
+
+*Proceedings of the National Academy of Sciences of the United States of America* (118) 41
+</div>
+
+<div>
+<img src="images/heat.jpg" style="width: 15rem;"></img>
+</div>
+::::
+
+:::: {#proj}
+<div>
+### [The association between agricultural conditions and multiple dimensions of undernutrition in children 6-23 months of age in Burkina Faso](https://iopscience.iop.org/article/10.1088/2515-7620/ac07f5)
+
+Pinchoff, Jessie, William Turner, and **Kathryn Grace** (2021)
+
+*Environmental Research Communications* 3 (6)
+</div>
+
+<div>
+<img src="images/nutrition.jpg" style="width: 15rem;"></img>
+</div>
+::::
+
+:::: {#proj}
+<div>
+### [Exploring Strategies for Investigating the Mechanisms Linking Climate and Individual-Level Child Health Outcomes: An Analysis of Birth Weight in Mali](https://doi.org/10.1215/00703370-8977484)
+
+**Grace, Kathryn**, Andrew Verdin, Audrey Dorélien, Frank Davenport, Chris Funk, and Greg Husak (2021)
+
+*Demography* 58 (2)
+</div>
+
+<div>
+<img src="images/exposure.png" style="width: 15rem;"></img>
+</div>
+::::
+
+
+:::: {#proj}
+<div style="width: 80%;">
+### [A Framework for Interdisciplinary Research in Food Systems](https://www.nature.com/articles/s43016-020-00212-6)
+
+**Grace, Kathryn**, Sauleh Siddiqui, and Benjamin F. Zaitchik (2020)
+
+*Nature Food* 2 (1) 
+</div>
+
+<div>
+<img src="images/framework.png" style="width: 15rem;"></img>
+</div>
+::::
+
+:::
+
+# Projects 
+
+### MERIAM 
+
+::: {#proj}
+Modelling Early Risk Indicators to Anticipate Malnutrition (MERIAM) is a four-year project funded by the UK government, which brings together an inter-disciplinary team of experts across four consortium partners:  [Action Against Hunger](http://www.actionagainsthunger.org/), the [Graduate Institute of Geneva](http://graduateinstitute.ch/home.html), [John Hopkins University](http://www.hopkinshumanitarianhealth.org/), and the [University of Maryland](https://www.umd.edu/). MERIAM’s primary aim is to develop, test and scale-up models to improve the prediction and monitoring of undernutrition in countries that experience frequent climate and conflict related shocks. 
+
+<img src="images/meriam.png" style="height: 9rem;"></img>
+:::
+
+
+### Climate Hazards Center 
+
+::: {#proj}
+The Climate Hazards Center is an alliance of multidisciplinary scientists and food security analysts utilizing climate and crop models, satellite-based earth observations, and socioeconomic data sets to predict and monitor droughts and food shortages among the world's most vulnerable populations. Through partnerships with [USAID](https://www.usaid.gov/), [USGS](https://www.usgs.gov/), and [FEWS NET](https://fews.net/), the CHC provides early warning to save lives and secure livelihoods.
+
+<img src="images/chc.png" style="height: 5rem;"></img>
+:::
+
+### IPUMS PMA & Data Analysis Hub
+
+::: {#proj}
+IPUMS PMA harmonizes the [Performance Monitoring for Action (PMA)](https://www.pmadata.org/) data series. It provides an interactive web dissemination system for PMA data with variable documentation on thousands of harmonized variables on family planning, water and sanitation, and health. PMA is fielded by the Bill & Melinda Gates Foundation and Johns Hopkins University using streamlined and high-frequency data collection in 11 FP2020 pledging countries. The IPUMS PMA [Data Analysis Hub](https://ipums.github.io/pma-data-hub/) is a blog offering tips and tools for working with IPUMS PMA data in R.
+
+<img src="images/pma.png" style="height: 4rem;"></img>
+:::
+
+::: {#stripe}
+# New Scholars 
+:::: {#people}
+```{r, results='asis'}
+read.csv("data/people.csv") %>%
+  tibble() %>%
+  pmap_chr(function(...){
+    id <- list(...)
+    img <- img(src = file.path("images", id$img), class = "person_img")
+    name <- if(id$website != ""){a(href = id$website, id$name)} else {id$name}
+    title <- p(class = "inst", id$title)
+    out <- div(id = "person", img, div(class = "person_txt", name, title))
+    as.character(out)
+  }) %>% 
+  HTML() 
+```
+:::: 
+:::

@@ -1,0 +1,380 @@
+---
+css:  [./cv.css]
+output:
+  pagedown::html_paged: 
+    toc: false
+    self_contained: false
+    number_sections: false
+lot: false
+lof: false
+toc: false 
+knit: pagedown::chrome_print
+
+---
+
+```{r, include=FALSE}
+library(tidyverse)
+library(here)
+library(gt)
+library(RefManageR)
+
+knitr::opts_chunk$set(results='asis', echo = FALSE)
+
+RefManageR::BibOptions(bib.style = "authoryear", check.entries = FALSE)
+refs <- here("data/publications.bib") %>% ReadBib() %>% as_tibble()
+
+refcounts <- refs %>% count(category) 
+refcounts <- refcounts$n %>% set_names(refcounts$category) %>% as.list()
+
+tbl_to_refs <- function(tbl){
+  tbl %>% 
+    mutate(
+      month = as.integer(month),
+      year = as.integer(year)
+    ) %>% 
+    arrange(desc(year), desc(month)) %>% 
+    select(-any_of(c("pages", "language", "keywords", "location"))) %>% 
+    pmap_chr(function(...){
+      tibble(...) %>% as.BibEntry() %>% format(style = "html") 
+    }) %>%
+    str_remove_all("URL: |In: ") %>% 
+    htmltools::HTML()
+}
+
+gt_format <- function(dat){
+  dat %>% 
+    gt() %>% 
+    fmt_markdown(columns = everything()) %>%
+    opt_table_lines("none")%>% 
+    tab_options(column_labels.hidden = TRUE) %>% 
+    cols_width(X1 ~ px(120)) %>% 
+    cols_align("left")
+}
+
+csv_to_gt <- function(path){
+  path %>% 
+    here("data",  .) %>% 
+    read_csv(col_names = FALSE, show_col_types = FALSE) %>% 
+    gt_format()
+}
+```
+
+
+# Kathryn Grace 
+
+| Department of Geography, Environment and Society 
+| 558 Social Sciences Building
+| 267 19th Avenue S.
+| Minneapolis, MN 55455
+| <klgrace@umn.edu>
+
+## Education 
+
+| **PhD Geography, University of California, Santa Barbara, 2008**
+| Dissertation: “Three Essays on Fertility and Family Planning in Guatemala”
+|
+| **MA Statistics, University of California, Santa Barbara, 2006**
+|
+| **MSPH Biostatistics, Tulane University School of Public Health, 2004** 
+|
+| **BA Theoretical Mathematics, University of California, Berkeley, 2002** 
+| *Minor in French Language and Culture*
+
+## Appointments 
+
+```{r}
+csv_to_gt("appointments.csv")
+```
+
+## Affiliations and Visiting Appointments
+
+```{r}
+csv_to_gt("affiliations.csv")
+```
+
+## Additional Training
+
+```{r}
+csv_to_gt("additional_training.csv")
+```
+
+## Fellowships and Honors
+
+| University of Minnesota College of Liberal Arts Scholar of the College, 2019-2022
+| Institut National d’Etudes Demographiques Visiting Researcher Fellowship, 2020
+| Institut National d’Etudes Demographiques Visiting Researcher Fellowship, 2015 
+| Demographic and Health Survey (DHS) Population and Reproductive Health Fellowship, 2007
+| University of California Graduate Opportunity Fellowship, 2004-05 & 2007-08
+| University of California Department of Geography Block Grant Funding, 2006
+| Tulane University School of Public Health Dean’s Grant, 2004
+| Tulane University Public Health Traineeship Award, 2003
+| University of California Faculty Wives Scholarship, 2001
+| University of California Education Abroad Program Scholarship, 1999
+
+## Grants and Awards (funding amounts reflect amount received by UMN)
+
+```{r}
+grants <- here("data/grants.csv") %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  rowwise() %>% 
+  mutate(
+    title = paste0("*", title, "* "),
+    when = paste("Award Period:", when)
+  ) %>% 
+  mutate(
+    .keep = "none", 
+    X1 = amount,
+    X2 = c(title, where, who1, who2, when, note) %>% 
+      keep(~!is.na(.x)) %>% 
+      paste0(collapse = "<br>")
+  ) %>% 
+  ungroup() 
+
+grants %>% 
+  slice(1) %>% 
+  gt_format()
+```
+
+```{r}
+grants %>% 
+  slice(-1) %>% 
+  gt_format()
+```
+
+
+# Publications
+
+\*\ indicates postdoctoral researcher or graduate student at the time of submission
+
+## Refereed Articles (`r refcounts$refereed`)
+
+```{r, warning=FALSE}
+refs %>% filter(category == "refereed") %>% tbl_to_refs()
+```
+
+## Other Publications (`r refcounts$other`)
+
+```{r, warning=FALSE}
+refs %>% filter(category == "other") %>% tbl_to_refs()
+```
+
+# Presentations 
+
+## Invited Talks 
+
+```{r, warning=FALSE}
+refs %>% filter(category == "talks") %>% tbl_to_refs()
+```
+
+## Papers Accepted for Presentation at Academic Association Meetings
+
+```{r, warning=FALSE}
+refs %>% filter(category == "conference papers") %>% tbl_to_refs()
+```
+
+## Posters Accepted for Presentation at Academic Association Meetings
+
+```{r, warning=FALSE}
+refs %>% filter(category == "conference posters") %>% tbl_to_refs()
+```
+
+# Teaching and Graduate Mentorship 
+
+
+## Postdoctoral researchers and research scientists
+
+| Andrew Verdin (2018-2020)
+| Nina Brooks (2020-2021)
+| Jacqueline Banks (postdoctoral trainee MPC) (2019-2021)
+| Maya Luetke (2021-ccurrent)
+| Jiao Yu (2021-current)
+
+## Committee Chair (Ph.D.)
+
+| Maryia Bakhtsiyarava (co-chair) (completed PhD 2020, beginning postdoctoral fellowship at UC Berkeley, fall 2020)
+| Ruthie Burrows
+| Grace Cooper
+| Oforiwaa Pee Agyei-Boakye (co-chair)
+
+
+## Committee Membership (Ph.D.)
+
+| Marin Bryce (completed PhD 2018)
+| Han Li (completed PhD 2016)
+| Jacqueline Banks (completed PhD 2019)
+| Kwame Tsikudo (completed PhD 2019)
+| Brent Lloyd (completed PhD 2019)
+| Aaron Mallory (completed PhD 2020)
+| Jacqueline Daigneault (completed PhD 2020) 
+| Anna Bolgrien (completed PhD 2021)
+| Morrison (Luke) Smith (in progress) 
+| Jasper Johnson (in progress)
+| Isaac Asante-Wusu (in progress) 
+
+## Committee Chair (Masters):
+
+| Julia Reich (advised until Fall 2018)
+| Lori Miles (2014) 
+| Delanie Farnham (2015)
+| Seth Bogle (advised until Fall 2016) 
+| Michael Ryba (advised until Fall 2015)
+
+## Committee Membership (Masters):
+
+| Kaila McDonald (2014)
+| Emily Nicolossi (2015) 
+| Jessie Bakker (Completed MA, 2020)
+
+## Undergraduate Mentorship: 
+
+| Maximilian Stiefel (honors thesis 2014, currently PhD student at UC Santa Barbara Geography)
+| Marc Healy (Undergraduate Research Opportunity Program grant recipient, 2013/14)
+| Eddy Urena (Undergraduate Research Opportunity Program grant recipient, 2018)
+| Suzanne Scotty (Undergraduate Research Opportunity Program grant recipient, 2020)
+| Kassandra Fate (Capstone Project)
+
+
+## Teaching Experience
+
+| Geography of Health and Health care, University of Minnesota, Department of Geography, Environment and Society, Spring 2016, Spring 2017, Fall 2017, Fall 2018, Fall 2019, Fall 2020
+| Global Health Survey Data analysis Spring 2019, Fall 2020, Spring 2021
+| Population Geography, University of Minnesota, Department of Geography, Environment and Society, Spring 2017, Fall 2018
+| Graduate Seminar: Statistical Methods, University of Minnesota, Department of Geography, Environment and Society, Fall 2017
+| Analytic Methods for Population Research, University of Utah, Department of Geography, Fall 2013
+| Economic Geography, University of Utah, School of Business, Spring 2013, Spring 2014, Fall 2014, Fall 2015
+| Global Development, University of Utah, Department of Geography, Spring 2014
+| Advanced Population Geography, University of Utah, Department of Geography, Spring 2013
+| Population Geography, University of Utah, Department of Geography, Fall 2012, 2013, 2014, Fall 2015
+| Guest Lecturer, Malnutrition and climate in Kenya in Spatial Statistics, Spring 2011
+| Guest Lecturer, Fertility Analysis in Spatial Demography, Winter 2010 and Spring 2012 
+| Teaching Assistant, Center for Spatially Integrated Social Sciences (CSISS) -  Spatial Perspectives on Analysis for Curriculum Enhancement (SPACE), UCSB, 2005 - 2007
+| Graduate Research Mentor (high school summer outreach program), UCSB, 2005 - 2007
+| Teaching Assistant, Human Geography, UCSB, Summer 2007
+| Guest Lecturer, Global trends in Fertility for Population Geography, Winter 2007
+| Teaching Assistant, Center for Spatially Integrated Social Sciences (CSISS) -  Population Science Summer Workshop, UCSB, 2005 - 2006
+| Teaching Assistant, Population Geography, UCSB, Fall 2005
+| Teaching Assistant, Introductory Statistics, UCSB, 2004 - 2005
+
+# Professional Service 
+
+## Discipline
+
+| Deputy Editor Demography July 2022-
+| Editorial Board Discover Social Science and Health Journal 2021-
+| Editorial Board Computers, Environment and Urban Systems Journal 2020-
+| Editorial Board CABI Agriculture and Biosciences Journal 2021
+| Editorial Board Spatial Demography 2018-
+| Editorial Board Population and Environment 2018-
+| Chair, Population and Environment Research Network 2021-
+| President, Population Specialty Group American Association of Geographers 2019-2022
+| Co-guest editor, Frontiers - Gender and social consideration in climates and impacts research 2020-2022
+| Advisory Board Population Environment Research Network 2019-2021
+| Organizing Committee Population Association of America Annual Meeting 2020
+| Session Organizer - Population Association of America Annual Meeting 2019
+| Session Chair - Population Association of America Annual Meeting 2018, 2022
+| Discussant - Population Association of America Annual Meeting 2018, 2022
+| Guest Editor Population and Environment - Special Issue 2018-2019
+| Vice-President, Population Specialty Group American Association of Geographers 2017-2019
+| Guest Editor Population and Environment 2018 and 2020
+| Discussant - Population Association of America Annual Meeting 2015
+| Student Poster Judge - American Geophysical Union Annual Meeting 2014
+| Session Co-Organizer - Population Association of America Annual Meeting 2014
+
+## University of Minnesota
+
+| Diversity, equity and inclusion Committee Chair, Department of GES (2020-2021)
+| MPC Senior Faculty Search Committee, Minnesota Population Center (2018-2019)
+| GIS Faculty Search Committee co-Chair, Department of GES (2019)
+| Ad-hoc Merit Review Committee, Department of GES (2018-2019)
+| Merit Committee Chair, Department of GES (2018-2019)
+| Grievance Committee Chair, Department of GES (2018-2019 & 2020-2021)
+| Coffee Hour/Brown Day Organizing Committee Chair - Department of GES (2017-2018)
+| Graduate Education Policy Committee - Department of GES (2017-2020)
+| Admissions Committee - Department of GES (2016-2017)
+| Executive Committee -  Department of GES (2016-2018)
+| Advisory Board Member - DASH (2018-current)
+| Fulbright Grant Reviewer (UMN) - (2017-2018)
+| Graduate Travel Grant Reviewer - (2017-2019)
+| Graduate School Advisory Board Member (2016-2019)
+| Advisory Board Member - Minnesota Population Center (2016-2019)
+| Co-Organizer (with Miranda Joseph) of Counter Accounting Workshop (2017)
+| Grants and Awards committee - Department of GES 2016
+| Parenting Across Roles, Invited Panelist Fall 2016
+| Parenting in Academia, Invited Panelist Spring 2016
+
+## University of Utah
+
+| Moderator - University of Utah, Undergraduate Research Conference 2014
+| College of Social and Behavioral Sciences, Appeals Committee 2013 - 2015
+| Department of Geography, Graduate Committee 2013 - 2015
+| Department of Geography, Colloquia Committee 2012 - 2015
+
+## Professional Membership 
+
+| Association of American Geographers
+| American Geophysical Union
+| Population Association of America
+| American Statistical Association
+
+## Reviewer 
+
+| Nature Energy
+| Nature Sustainability (x3)
+| Nature Climate Change
+| Nature Communication
+| Proceedings of the National Academy of Sciences
+| Science
+| Lancet Planetary Health (x2)
+| Demography (x4)
+| American Sociological Review
+| American Journal of Public Health
+| Population and Development Review (x2)
+| Scientific Data
+| Food Policy
+| Annals of the American Association of Geographers
+| American Journal of Agricultural Economics
+| Global Environmental Change (x3)
+| Global Change Biology
+| Population and Environment (x6)
+| Spatial Demography (x2)
+| Population (French Language) (x2)
+| International Regional Science Review
+| Scientific Reports
+| Health and Place
+| BMC Nutrition
+| Public Health Nutrition
+| Social Science and Medicine
+| International Perspectives on Sexual and Reproductive Health (x2)
+| PLOS One (x3)
+| Remote Sensing Applications: Society and Environment
+| Health Science Journal
+| Health and Place
+| International Journal of Disaster Risk Reduction
+| Landscape Ecology
+| Health Education Journal
+| Applied Geography (x4)
+| Pan American Journal of Public Health (x3)
+| Remote Sensing
+| Urban Studies
+| Population Review
+| NASA LCLUC ROSES
+| Ad-hoc NIH review panel (CHHD-W), 2021, 2022
+| Swiss National Science Foundation (x2)
+| NASA Postdoctoral Program
+| National Science Foundation
+| EPA Star Graduate Student Fellowship
+| U of U Air Quality Program Seed Grant Funding Opportunity
+| NASA SERVIR Applied Sciences Grant Opportunity
+| JPI (Joint Programming Initiative) "Connecting Climate Knowledge for Europe"
+
+## Community Service 
+
+| Santa Barbara Charter School Parent Volunteer, 2011-2012
+| Goleta Family School Parent Volunteer and Goleta Earth Day co-Organizer, 2006 - 2008
+| Tulane University School of Public Health Student Health Representative, 2003 - 2004
+| UC Berkeley Student Parent Organization Treasurer, 2001 - 2002
+| UC Berkeley Family Student Housing Health Worker, 2001 - 2002
+
+## Languages and Skills 
+
+French, SAS, SPSS, R, ArcGIS, LaTeX
