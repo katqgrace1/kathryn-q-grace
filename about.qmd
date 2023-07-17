@@ -1,6 +1,8 @@
 ---
-title: "About"
+toc: false
 ---
+
+# About 
 
 Hello and thank you for visiting my webpage!
 

@@ -10,8 +10,23 @@ body{
   overflow-x: hidden;
 }
 
+.level1, .quarto-about-trestles {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0% 5%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   text-decoration: none !important;
+}
+
+.proj_img {
+  padding-left: 30px;
 }
 
 cite {
@@ -62,6 +77,7 @@ cite {
   max-width: 150px;
   height: auto;
   border-radius: 50%;
+  padding-left: 0 !important;
 }
 
 .person_txt {
@@ -80,17 +96,7 @@ div.quarto-post {
 }
 
 #stripe {
- /*  position: relative; for child pseudo-element 
-  z-index: 0;
   background-color: #FFEDEE;
-  margin-top: 4rem;
-  margin-left: -500%;
-  margin-right: -500%;
-  margin-bottom: 4rem;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 500% !important;
-  padding-right: 500% !important;*/
 }
 
 /* Media for mobile width */

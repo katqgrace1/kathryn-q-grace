@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-page-layout: full
+page-layout: custom
 execute:
   echo: false
   eval: true

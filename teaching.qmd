@@ -1,6 +1,8 @@
 ---
-title: "Teaching"
+toc: false 
 ---
+
+# Teaching 
 
 My goal for my students is that they critically engage with the reading material (newspaper articles, journal articles, textbooks, podcasts and blog posts) used in my courses. 
 

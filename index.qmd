@@ -53,7 +53,7 @@ Tuholske, Cascade, Kelly Caylor, Chris Funk, Andrew Verdin, Stuart Sweeney, **Ka
 </div>
 
 <div>
-<img src="images/heat.jpg" style="width: 15rem;"></img>
+<img src="images/heat.jpg" style="width: 15rem;" class = "proj_img"></img>
 </div>
 ::::
 
@@ -67,7 +67,7 @@ Pinchoff, Jessie, William Turner, and **Kathryn Grace** (2021)
 </div>
 
 <div>
-<img src="images/nutrition.jpg" style="width: 15rem;"></img>
+<img src="images/nutrition.jpg" style="width: 15rem;" class = "proj_img"></img>
 </div>
 ::::
 
@@ -81,7 +81,7 @@ Pinchoff, Jessie, William Turner, and **Kathryn Grace** (2021)
 </div>
 
 <div>
-<img src="images/exposure.png" style="width: 15rem;"></img>
+<img src="images/exposure.png" style="width: 15rem;" class = "proj_img"></img>
 </div>
 ::::
 
@@ -96,20 +96,20 @@ Pinchoff, Jessie, William Turner, and **Kathryn Grace** (2021)
 </div>
 
 <div>
-<img src="images/framework.png" style="width: 15rem;"></img>
+<img src="images/framework.png" style="width: 15rem;" class = "proj_img"></img>
 </div>
 ::::
 
 :::
 
-# Projects 
+# Projects
 
 ### MERIAM 
 
 ::: {#proj}
 Modelling Early Risk Indicators to Anticipate Malnutrition (MERIAM) is a four-year project funded by the UK government, which brings together an inter-disciplinary team of experts across four consortium partners:  [Action Against Hunger](http://www.actionagainsthunger.org/), the [Graduate Institute of Geneva](http://graduateinstitute.ch/home.html), [John Hopkins University](http://www.hopkinshumanitarianhealth.org/), and the [University of Maryland](https://www.umd.edu/). MERIAM’s primary aim is to develop, test and scale-up models to improve the prediction and monitoring of undernutrition in countries that experience frequent climate and conflict related shocks. 
 
-<img src="images/meriam.png" style="height: 9rem;"></img>
+<img src="images/meriam.png" style="height: 9rem;" class = "proj_img"></img>
 :::
 
 
@@ -118,7 +118,7 @@ Modelling Early Risk Indicators to Anticipate Malnutrition (MERIAM) is a four-ye
 ::: {#proj}
 The Climate Hazards Center is an alliance of multidisciplinary scientists and food security analysts utilizing climate and crop models, satellite-based earth observations, and socioeconomic data sets to predict and monitor droughts and food shortages among the world's most vulnerable populations. Through partnerships with [USAID](https://www.usaid.gov/), [USGS](https://www.usgs.gov/), and [FEWS NET](https://fews.net/), the CHC provides early warning to save lives and secure livelihoods.
 
-<img src="images/chc.png" style="height: 5rem;"></img>
+<img src="images/chc.png" style="height: 5rem;" class = "proj_img"></img>
 :::
 
 ### IPUMS PMA & Data Analysis Hub
@@ -126,7 +126,7 @@ The Climate Hazards Center is an alliance of multidisciplinary scientists and fo
 ::: {#proj}
 IPUMS PMA harmonizes the [Performance Monitoring for Action (PMA)](https://www.pmadata.org/) data series. It provides an interactive web dissemination system for PMA data with variable documentation on thousands of harmonized variables on family planning, water and sanitation, and health. PMA is fielded by the Bill & Melinda Gates Foundation and Johns Hopkins University using streamlined and high-frequency data collection in 11 FP2020 pledging countries. The IPUMS PMA [Data Analysis Hub](https://ipums.github.io/pma-data-hub/) is a blog offering tips and tools for working with IPUMS PMA data in R.
 
-<img src="images/pma.png" style="height: 4rem;"></img>
+<img src="images/pma.png" style="height: 4rem;" class = "proj_img"></img>
 :::
 
 ::: {#stripe}

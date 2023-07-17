@@ -1,6 +1,10 @@
 ---
-title: "Publications"
+toc: false
 ---
+
+# Publications 
+
+[*Full CV available here*](cv.pdf)
 
 ```{r, include=FALSE}
 library(tidyverse)
