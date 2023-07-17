@@ -80,7 +80,7 @@ div.quarto-post {
 }
 
 #stripe {
-  position: relative; /* for child pseudo-element */
+ /*  position: relative; for child pseudo-element 
   z-index: 0;
   background-color: #FFEDEE;
   margin-top: 4rem;
@@ -90,7 +90,7 @@ div.quarto-post {
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 500% !important;
-  padding-right: 500% !important;
+  padding-right: 500% !important;*/
 }
 
 /* Media for mobile width */
