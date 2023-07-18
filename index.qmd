@@ -1,6 +1,6 @@
 ---
 title: Kathryn Q Grace
-subtitle: Associate Professor <br> Geography, Environment and Society <br> University of Minnesota 
+subtitle: Professor of Geography,<br> Environment and Society <br> University of Minnesota 
 toc: false 
 about:
   id: hero-heading

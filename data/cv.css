@@ -1,13 +1,48 @@
 
 @import url('https://assets.ipums.org/_css/font-faces.css');
 
+/* No border lines around tables */
+table {
+  border: none;
+  width: 100% !important;
+  font-family: cabrito_sans_norm_regular !important;
+  font-size: 1em !important;
+  margin-bottom: 0em;
+}
+
+table, tbody {
+  break-inside: auto !important;
+  break-after: never;
+} 
+   
+tr, td, th, thead, tfoot {
+  page-break-inside: avoid !important;
+  page-break-before: avoid !important;
+  page-break-after: avoid !important;
+  break-inside: avoid;
+  break-after: avoid;
+  break-before: avoid;
+}
+ 
+ 
+/* No shade for alternating table rows */
+thead, tfoot, tr:nth-child(even) {
+  background: none; 
+}
+
+.big_table td {
+  padding-bottom: 1.1rem !important;
+}
+ 
 /* Main text body */
 body {
   font-family: cabrito_sans_norm_regular;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 11pt;
-  line-height: 1.25;
-  color: #444;
+  line-height: normal;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* We use a separate bold font */
@@ -20,12 +55,6 @@ b, strong {
 a {
   color: #98579B !important;
   text-decoration: none !important;
-}
-
-/* Code (inline and chunked) */
-code {
-  font-family: Menlo !important;
-  font-size: 0.8em;
 }
 
 /* Headings */
@@ -44,6 +73,7 @@ h2, h3 {
 h2 {
   text-transform: uppercase;
   font-size: 1.2em;
+  margin-top: 1rem;
 }
 
 h3 {
@@ -70,19 +100,6 @@ cite {
   break-before: none;
 }
 
-/* No border lines around tables */
-table {
-  border: none;
-  width: 100% !important;
-  font-family: cabrito_sans_norm_regular !important;
-  padding-left: 36px
-  text-indent: -36px
-}
-
-/* No shade for alternating table rows */
-thead, tfoot, tr:nth-child(even) {
-  background: none; 
-}
 
 
 /* Pagedown overrides */

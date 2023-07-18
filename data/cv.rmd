@@ -15,7 +15,7 @@ knit: pagedown::chrome_print
 ```{r, include=FALSE}
 library(tidyverse)
 library(here)
-library(gt)
+library(kableExtra)
 library(RefManageR)
 
 knitr::opts_chunk$set(results='asis', echo = FALSE)
@@ -41,24 +41,23 @@ tbl_to_refs <- function(tbl){
     htmltools::HTML()
 }
 
-gt_format <- function(dat){
+kbl_format <- function(dat){
   dat %>% 
-    gt() %>% 
-    fmt_markdown(columns = everything()) %>%
-    opt_table_lines("none")%>% 
-    tab_options(column_labels.hidden = TRUE) %>% 
-    cols_width(X1 ~ px(120)) %>% 
-    cols_align("left")
+    kbl(format = "html", col.names = NULL, align = "l", escape = FALSE) %>% 
+    column_spec(1, width = "120px")
 }
 
-csv_to_gt <- function(path){
+get_csv <- function(path){
   path %>% 
     here("data",  .) %>% 
-    read_csv(col_names = FALSE, show_col_types = FALSE) %>% 
-    gt_format()
+    read_csv(col_names = FALSE, show_col_types = FALSE) 
 }
-```
 
+# Note: a known issue with pagedown 
+# (see https://github.com/rstudio/pagedown/issues/299)
+# is forcing me to manually divide tables interrupted by a page break 
+# (overflow content goes into the wrong column by default!)
+```
 
 # Kathryn Grace 
 
@@ -83,19 +82,26 @@ csv_to_gt <- function(path){
 ## Appointments 
 
 ```{r}
-csv_to_gt("appointments.csv")
+get_csv("appointments.csv") %>% kbl_format()
 ```
 
 ## Affiliations and Visiting Appointments
 
 ```{r}
-csv_to_gt("affiliations.csv")
+affiliations <- get_csv("affiliations.csv")
+affiliations %>% slice(1:3) %>% kbl_format()
+```
+
+\pagebreak
+
+```{r}
+affiliations %>% slice(-c(1:3)) %>% kbl_format()
 ```
 
 ## Additional Training
 
 ```{r}
-csv_to_gt("additional_training.csv")
+get_csv("additional_training.csv") %>% kbl_format()
 ```
 
 ## Fellowships and Honors
@@ -111,14 +117,19 @@ csv_to_gt("additional_training.csv")
 | University of California Faculty Wives Scholarship, 2001
 | University of California Education Abroad Program Scholarship, 1999
 
-## Grants and Awards (funding amounts reflect amount received by UMN)
+\pagebreak
 
+## Grants and Awards 
+
+*Funding amounts reflect amount received by UMN*
+
+::: {.big_table}
 ```{r}
 grants <- here("data/grants.csv") %>% 
   read_csv(show_col_types = FALSE) %>% 
   rowwise() %>% 
   mutate(
-    title = paste0("*", title, "* "),
+    title = paste0("<em>", title, "</em>"),
     when = paste("Award Period:", when)
   ) %>% 
   mutate(
@@ -130,17 +141,34 @@ grants <- here("data/grants.csv") %>%
   ) %>% 
   ungroup() 
 
-grants %>% 
-  slice(1) %>% 
-  gt_format()
+grants %>% slice(1:5) %>% kbl_format()
 ```
+
+\pagebreak
 
 ```{r}
-grants %>% 
-  slice(-1) %>% 
-  gt_format()
+grants %>% slice(6:11) %>% kbl_format()
 ```
 
+\pagebreak
+
+```{r}
+grants %>% slice(12:17) %>% kbl_format()
+```
+
+\pagebreak
+
+```{r}
+grants %>% slice(16:21) %>% kbl_format()
+```
+
+\pagebreak
+
+```{r}
+grants %>% slice(22:25) %>% kbl_format()
+```
+
+:::
 
 # Publications
 

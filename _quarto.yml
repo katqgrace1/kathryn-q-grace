@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!*.rmd"
 page-layout: custom
 execute:
   echo: false

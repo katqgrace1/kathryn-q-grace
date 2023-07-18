@@ -12,6 +12,11 @@ library(RefManageR)
 library(here)
 RefManageR::BibOptions(bib.style = "authoryear", check.entries = FALSE)
 refs <- RefManageR::ReadBib("data/publications.bib")
+
+pagedown::chrome_print(
+  "data/cv.rmd",
+  "cv.pdf"
+)
 ```
 
 ```{r, warning=FALSE}
