@@ -29,10 +29,11 @@ refcounts <- refcounts$n %>% set_names(refcounts$category) %>% as.list()
 tbl_to_refs <- function(tbl){
   tbl %>% 
     mutate(
+      inpress = journal %>% str_detect("In press"),
       month = as.integer(month),
       year = as.integer(year)
     ) %>% 
-    arrange(desc(year), desc(month)) %>% 
+    arrange(desc(year), desc(inpress), desc(month)) %>% 
     select(-any_of(c("pages", "language", "keywords", "location"))) %>% 
     pmap_chr(function(...){
       tibble(...) %>% as.BibEntry() %>% format(style = "html") 
@@ -40,6 +41,7 @@ tbl_to_refs <- function(tbl){
     str_remove_all("URL: |In: ") %>% 
     htmltools::HTML()
 }
+
 
 kbl_format <- function(dat){
   dat %>% 
