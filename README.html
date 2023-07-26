@@ -77,6 +77,25 @@ ul.task-list li input[type="checkbox"] {
 <li><p><code>cv.rmd</code> - <strong>please do not knit this file directly</strong>, as it is automatically sourced when you run <code>quarto render</code> (we want the CV and website to remain in sync)</p></li>
 </ul>
 </section>
+<section id="website-details" class="level2">
+<h2 class="anchored" data-anchor-id="website-details">Website details</h2>
+<p>This website is built with <a href="https://quarto.org/docs/reference/projects/websites.html">Quarto</a> and stylized with the files <code>styles.scss</code> and <code>_quarto.yml</code>.</p>
+<p>The site consist of four pages, each built with a different <code>.qmd</code> file:</p>
+<ul>
+<li><p><code>index.qmd</code> builds the homepage. Please note that:</p>
+<ul>
+<li>the div class <code>hero-heading</code> references the “hero” banner (avatar &amp; welcome message) at the top of the page</li>
+<li>the div class <code>stripe</code> toggles the pink background used in alternating sections</li>
+<li>the div class <code>proj</code> arranges projects and featured publications in a flex-box with a featured image on the right</li>
+<li>the div class <code>people</code> arranges avatars at the bottom of the page in a flex-box with customized styling for round-shaped avatar images</li>
+<li>featured publications are <em>not</em> automatically updated when new publications are added to <code>publications.bib</code> - this allows you to customize the featured text and images by editing <code>index.qmd</code></li>
+<li><code>styles.scss</code> includes a mobile query that rearranges flex-boxes for layout on small screens</li>
+</ul></li>
+<li><p><code>publications.qmd</code> <em>only</em> features publications in <code>publications.bib</code> where <code>category = "refereed"</code></p></li>
+<li><p><code>about.qmd</code> is text-only</p></li>
+<li><p><code>teaching.qmd</code> is text-only</p></li>
+</ul>
+</section>
 </section>
 
 </main>
