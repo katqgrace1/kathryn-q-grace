@@ -20,6 +20,9 @@ website:
       - publications.qmd
       - href: cv.pdf
         text: CV
+    right: 
+      - icon: "github" 
+        href: "https://github.com/katqgrace1/kathryn-q-grace" 
 resources: cv.pdf
 format:
   html:
