@@ -133,12 +133,12 @@ IPUMS PMA harmonizes the [Performance Monitoring for Action (PMA)](https://www.p
 # New Scholars 
 :::: {#people}
 ```{r, results='asis'}
-read.csv("data/people.csv") %>%
-  tibble() %>%
+read_csv("data/people.csv", show_col_types = FALSE) %>%
+  mutate(img = img %>% replace_na("avatar.png")) %>% 
   pmap_chr(function(...){
     id <- list(...)
     img <- img(src = file.path("images", id$img), class = "person_img")
-    name <- if(id$website != ""){a(href = id$website, id$name)} else {id$name}
+    name <- if(!is.na(id$website)){a(href = id$website, id$name)} else {id$name}
     title <- p(class = "inst", id$title)
     out <- div(id = "person", img, div(class = "person_txt", name, title))
     as.character(out)
